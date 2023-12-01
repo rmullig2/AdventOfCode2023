@@ -8,3 +8,6 @@ class DayOneTests(unittest.TestCase):
         self.assertEqual(type(input_list), list)
     def test_line_one(self):
         self.assertEqual(input_list[0], "1abc2")
+    def test_get_sum(self):
+        sum = get_sum(input_list)
+        self.assertEqual(sum, 142)
