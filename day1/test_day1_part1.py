@@ -1,9 +1,9 @@
 import unittest
-from day1 import *
+from day1_part1 import *
 
 input_list = get_input("input_test.txt")
 
-class DayOneTests(unittest.TestCase):
+class DayOneTestsPartOne(unittest.TestCase):
     def test_input(self):
         self.assertEqual(type(input_list), list)
     def test_line_one(self):
@@ -11,3 +11,4 @@ class DayOneTests(unittest.TestCase):
     def test_get_sum(self):
         sum = get_sum(input_list)
         self.assertEqual(sum, 142)
+
