@@ -1,0 +1,27 @@
+1. Read input file into list
+2. Modify list by creating row with all dots at top and bottom
+3. Further modify list by adding a dot as the first and last character of each row
+4. Initialize sum to zero
+5. Process each line:
+    when a digit is found a number is started
+    store [row,col] in adjacency check list
+    while next character is a digit
+        multiply number by 10 and add next digit
+        store [row,col] in adjacency check list
+    after end of number
+        for each [row,col] in adjacency check list
+            if symbol adjacent then add to sum
+6. Return sum
+
+
+Symbol adjacent function
+1. if [row-1,col-1] is not a dot or a number return true
+2. if [row-1,col] is not a dot or a number return true
+3. if [row-1,col+1] is not a dot or a number return true
+4. if [row,col-1] is not a dot or a number return true
+5. if [row,col+1] is not a dot or a number return true
+6. if [row+1,col-1] is not a dot or a number return true
+7. if [row+1,col] is not a dot or a number return true
+8. if [row+1,col+1] is not a dot or a number return true
+9. return false
+
