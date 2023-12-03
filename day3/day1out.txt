@@ -1,0 +1,2286 @@
+Checking if 389 is adjacent
+Checking if 314 is adjacent
+Checking if 206 is adjacent
+Adding 206 to sum_of_nums
+Checking if 449 is adjacent
+Adding 449 to sum_of_nums
+Checking if 523 is adjacent
+Checking if 138 is adjacent
+Adding 138 to sum_of_nums
+Checking if 954 is adjacent
+Checking if 723 is adjacent
+Adding 723 to sum_of_nums
+Checking if 687 is adjacent
+Adding 687 to sum_of_nums
+Checking if 692 is adjacent
+Adding 692 to sum_of_nums
+Checking if 121 is adjacent
+Adding 121 to sum_of_nums
+Checking if 992 is adjacent
+Adding 992 to sum_of_nums
+Checking if 585 is adjacent
+Adding 585 to sum_of_nums
+Checking if 814 is adjacent
+Adding 814 to sum_of_nums
+Checking if 936 is adjacent
+Checking if 102 is adjacent
+Adding 102 to sum_of_nums
+Checking if 353 is adjacent
+Adding 353 to sum_of_nums
+Checking if 140 is adjacent
+Adding 140 to sum_of_nums
+Checking if 434 is adjacent
+Adding 434 to sum_of_nums
+Checking if 301 is adjacent
+Adding 301 to sum_of_nums
+Checking if 315 is adjacent
+Checking if 877 is adjacent
+Adding 877 to sum_of_nums
+Checking if 523 is adjacent
+Checking if 489 is adjacent
+Adding 489 to sum_of_nums
+Checking if 380 is adjacent
+Adding 380 to sum_of_nums
+Checking if 174 is adjacent
+Checking if 263 is adjacent
+Adding 263 to sum_of_nums
+Checking if 824 is adjacent
+Checking if 710 is adjacent
+Adding 710 to sum_of_nums
+Checking if 733 is adjacent
+Adding 733 to sum_of_nums
+Checking if 758 is adjacent
+Adding 758 to sum_of_nums
+Checking if 435 is adjacent
+Checking if 656 is adjacent
+Checking if 483 is adjacent
+Adding 483 to sum_of_nums
+Checking if 855 is adjacent
+Adding 855 to sum_of_nums
+Checking if 154 is adjacent
+Adding 154 to sum_of_nums
+Checking if 779 is adjacent
+Adding 779 to sum_of_nums
+Checking if 674 is adjacent
+Adding 674 to sum_of_nums
+Checking if 320 is adjacent
+Adding 320 to sum_of_nums
+Checking if 373 is adjacent
+Adding 373 to sum_of_nums
+Checking if 707 is adjacent
+Adding 707 to sum_of_nums
+Checking if 503 is adjacent
+Adding 503 to sum_of_nums
+Checking if 422 is adjacent
+Adding 422 to sum_of_nums
+Checking if 591 is adjacent
+Adding 591 to sum_of_nums
+Checking if 551 is adjacent
+Adding 551 to sum_of_nums
+Checking if 676 is adjacent
+Adding 676 to sum_of_nums
+Checking if 306 is adjacent
+Adding 306 to sum_of_nums
+Checking if 220 is adjacent
+Adding 220 to sum_of_nums
+Checking if 410 is adjacent
+Adding 410 to sum_of_nums
+Checking if 639 is adjacent
+Checking if 146 is adjacent
+Adding 146 to sum_of_nums
+Checking if 486 is adjacent
+Adding 486 to sum_of_nums
+Checking if 772 is adjacent
+Adding 772 to sum_of_nums
+Checking if 848 is adjacent
+Adding 848 to sum_of_nums
+Checking if 863 is adjacent
+Adding 863 to sum_of_nums
+Checking if 405 is adjacent
+Adding 405 to sum_of_nums
+Checking if 636 is adjacent
+Adding 636 to sum_of_nums
+Checking if 190 is adjacent
+Adding 190 to sum_of_nums
+Checking if 313 is adjacent
+Adding 313 to sum_of_nums
+Checking if 738 is adjacent
+Adding 738 to sum_of_nums
+Checking if 397 is adjacent
+Checking if 840 is adjacent
+Adding 840 to sum_of_nums
+Checking if 167 is adjacent
+Adding 167 to sum_of_nums
+Checking if 508 is adjacent
+Adding 508 to sum_of_nums
+Checking if 498 is adjacent
+Adding 498 to sum_of_nums
+Checking if 819 is adjacent
+Adding 819 to sum_of_nums
+Checking if 147 is adjacent
+Adding 147 to sum_of_nums
+Checking if 313 is adjacent
+Adding 313 to sum_of_nums
+Checking if 692 is adjacent
+Adding 692 to sum_of_nums
+Checking if 177 is adjacent
+Adding 177 to sum_of_nums
+Checking if 727 is adjacent
+Adding 727 to sum_of_nums
+Checking if 364 is adjacent
+Adding 364 to sum_of_nums
+Checking if 800 is adjacent
+Adding 800 to sum_of_nums
+Checking if 748 is adjacent
+Adding 748 to sum_of_nums
+Checking if 733 is adjacent
+Adding 733 to sum_of_nums
+Checking if 993 is adjacent
+Adding 993 to sum_of_nums
+Checking if 854 is adjacent
+Checking if 245 is adjacent
+Adding 245 to sum_of_nums
+Checking if 128 is adjacent
+Adding 128 to sum_of_nums
+Checking if 322 is adjacent
+Adding 322 to sum_of_nums
+Checking if 305 is adjacent
+Adding 305 to sum_of_nums
+Checking if 7 is adjacent
+Adding 7 to sum_of_nums
+Checking if 152 is adjacent
+Checking if 978 is adjacent
+Adding 978 to sum_of_nums
+Checking if 160 is adjacent
+Adding 160 to sum_of_nums
+Checking if 378 is adjacent
+Checking if 524 is adjacent
+Adding 524 to sum_of_nums
+Checking if 905 is adjacent
+Adding 905 to sum_of_nums
+Checking if 343 is adjacent
+Adding 343 to sum_of_nums
+Checking if 681 is adjacent
+Adding 681 to sum_of_nums
+Checking if 615 is adjacent
+Adding 615 to sum_of_nums
+Checking if 251 is adjacent
+Checking if 417 is adjacent
+Adding 417 to sum_of_nums
+Checking if 53 is adjacent
+Adding 53 to sum_of_nums
+Checking if 354 is adjacent
+Adding 354 to sum_of_nums
+Checking if 126 is adjacent
+Adding 126 to sum_of_nums
+Checking if 119 is adjacent
+Adding 119 to sum_of_nums
+Checking if 942 is adjacent
+Checking if 424 is adjacent
+Adding 424 to sum_of_nums
+Checking if 863 is adjacent
+Adding 863 to sum_of_nums
+Checking if 518 is adjacent
+Adding 518 to sum_of_nums
+Checking if 971 is adjacent
+Adding 971 to sum_of_nums
+Checking if 96 is adjacent
+Adding 96 to sum_of_nums
+Checking if 48 is adjacent
+Adding 48 to sum_of_nums
+Checking if 92 is adjacent
+Adding 92 to sum_of_nums
+Checking if 441 is adjacent
+Adding 441 to sum_of_nums
+Checking if 681 is adjacent
+Adding 681 to sum_of_nums
+Checking if 532 is adjacent
+Checking if 257 is adjacent
+Adding 257 to sum_of_nums
+Checking if 932 is adjacent
+Checking if 64 is adjacent
+Adding 64 to sum_of_nums
+Checking if 2 is adjacent
+Adding 2 to sum_of_nums
+Checking if 235 is adjacent
+Adding 235 to sum_of_nums
+Checking if 318 is adjacent
+Adding 318 to sum_of_nums
+Checking if 317 is adjacent
+Adding 317 to sum_of_nums
+Checking if 383 is adjacent
+Adding 383 to sum_of_nums
+Checking if 567 is adjacent
+Adding 567 to sum_of_nums
+Checking if 705 is adjacent
+Checking if 923 is adjacent
+Adding 923 to sum_of_nums
+Checking if 716 is adjacent
+Adding 716 to sum_of_nums
+Checking if 409 is adjacent
+Adding 409 to sum_of_nums
+Checking if 68 is adjacent
+Adding 68 to sum_of_nums
+Checking if 638 is adjacent
+Adding 638 to sum_of_nums
+Checking if 72 is adjacent
+Adding 72 to sum_of_nums
+Checking if 367 is adjacent
+Adding 367 to sum_of_nums
+Checking if 802 is adjacent
+Adding 802 to sum_of_nums
+Checking if 401 is adjacent
+Adding 401 to sum_of_nums
+Checking if 773 is adjacent
+Adding 773 to sum_of_nums
+Checking if 535 is adjacent
+Adding 535 to sum_of_nums
+Checking if 4 is adjacent
+Adding 4 to sum_of_nums
+Checking if 29 is adjacent
+Adding 29 to sum_of_nums
+Checking if 784 is adjacent
+Adding 784 to sum_of_nums
+Checking if 526 is adjacent
+Adding 526 to sum_of_nums
+Checking if 141 is adjacent
+Adding 141 to sum_of_nums
+Checking if 342 is adjacent
+Adding 342 to sum_of_nums
+Checking if 189 is adjacent
+Checking if 630 is adjacent
+Adding 630 to sum_of_nums
+Checking if 958 is adjacent
+Adding 958 to sum_of_nums
+Checking if 745 is adjacent
+Adding 745 to sum_of_nums
+Checking if 118 is adjacent
+Adding 118 to sum_of_nums
+Checking if 639 is adjacent
+Adding 639 to sum_of_nums
+Checking if 702 is adjacent
+Checking if 327 is adjacent
+Adding 327 to sum_of_nums
+Checking if 741 is adjacent
+Adding 741 to sum_of_nums
+Checking if 324 is adjacent
+Adding 324 to sum_of_nums
+Checking if 531 is adjacent
+Adding 531 to sum_of_nums
+Checking if 648 is adjacent
+Adding 648 to sum_of_nums
+Checking if 566 is adjacent
+Adding 566 to sum_of_nums
+Checking if 172 is adjacent
+Adding 172 to sum_of_nums
+Checking if 910 is adjacent
+Adding 910 to sum_of_nums
+Checking if 939 is adjacent
+Adding 939 to sum_of_nums
+Checking if 799 is adjacent
+Adding 799 to sum_of_nums
+Checking if 37 is adjacent
+Adding 37 to sum_of_nums
+Checking if 307 is adjacent
+Adding 307 to sum_of_nums
+Checking if 140 is adjacent
+Adding 140 to sum_of_nums
+Checking if 334 is adjacent
+Adding 334 to sum_of_nums
+Checking if 204 is adjacent
+Adding 204 to sum_of_nums
+Checking if 852 is adjacent
+Adding 852 to sum_of_nums
+Checking if 104 is adjacent
+Adding 104 to sum_of_nums
+Checking if 914 is adjacent
+Adding 914 to sum_of_nums
+Checking if 553 is adjacent
+Adding 553 to sum_of_nums
+Checking if 994 is adjacent
+Adding 994 to sum_of_nums
+Checking if 547 is adjacent
+Checking if 539 is adjacent
+Adding 539 to sum_of_nums
+Checking if 588 is adjacent
+Adding 588 to sum_of_nums
+Checking if 436 is adjacent
+Adding 436 to sum_of_nums
+Checking if 12 is adjacent
+Adding 12 to sum_of_nums
+Checking if 914 is adjacent
+Checking if 223 is adjacent
+Adding 223 to sum_of_nums
+Checking if 953 is adjacent
+Adding 953 to sum_of_nums
+Checking if 62 is adjacent
+Adding 62 to sum_of_nums
+Checking if 311 is adjacent
+Adding 311 to sum_of_nums
+Checking if 98 is adjacent
+Checking if 317 is adjacent
+Adding 317 to sum_of_nums
+Checking if 595 is adjacent
+Adding 595 to sum_of_nums
+Checking if 467 is adjacent
+Adding 467 to sum_of_nums
+Checking if 142 is adjacent
+Adding 142 to sum_of_nums
+Checking if 620 is adjacent
+Adding 620 to sum_of_nums
+Checking if 795 is adjacent
+Adding 795 to sum_of_nums
+Checking if 363 is adjacent
+Adding 363 to sum_of_nums
+Checking if 135 is adjacent
+Adding 135 to sum_of_nums
+Checking if 968 is adjacent
+Adding 968 to sum_of_nums
+Checking if 222 is adjacent
+Adding 222 to sum_of_nums
+Checking if 448 is adjacent
+Adding 448 to sum_of_nums
+Checking if 754 is adjacent
+Adding 754 to sum_of_nums
+Checking if 702 is adjacent
+Adding 702 to sum_of_nums
+Checking if 881 is adjacent
+Adding 881 to sum_of_nums
+Checking if 31 is adjacent
+Adding 31 to sum_of_nums
+Checking if 630 is adjacent
+Adding 630 to sum_of_nums
+Checking if 834 is adjacent
+Adding 834 to sum_of_nums
+Checking if 527 is adjacent
+Adding 527 to sum_of_nums
+Checking if 614 is adjacent
+Checking if 640 is adjacent
+Adding 640 to sum_of_nums
+Checking if 888 is adjacent
+Adding 888 to sum_of_nums
+Checking if 360 is adjacent
+Adding 360 to sum_of_nums
+Checking if 764 is adjacent
+Adding 764 to sum_of_nums
+Checking if 859 is adjacent
+Adding 859 to sum_of_nums
+Checking if 586 is adjacent
+Adding 586 to sum_of_nums
+Checking if 979 is adjacent
+Adding 979 to sum_of_nums
+Checking if 514 is adjacent
+Adding 514 to sum_of_nums
+Checking if 30 is adjacent
+Adding 30 to sum_of_nums
+Checking if 538 is adjacent
+Adding 538 to sum_of_nums
+Checking if 176 is adjacent
+Adding 176 to sum_of_nums
+Checking if 200 is adjacent
+Adding 200 to sum_of_nums
+Checking if 300 is adjacent
+Adding 300 to sum_of_nums
+Checking if 708 is adjacent
+Adding 708 to sum_of_nums
+Checking if 460 is adjacent
+Adding 460 to sum_of_nums
+Checking if 503 is adjacent
+Adding 503 to sum_of_nums
+Checking if 385 is adjacent
+Adding 385 to sum_of_nums
+Checking if 896 is adjacent
+Adding 896 to sum_of_nums
+Checking if 14 is adjacent
+Adding 14 to sum_of_nums
+Checking if 404 is adjacent
+Adding 404 to sum_of_nums
+Checking if 688 is adjacent
+Adding 688 to sum_of_nums
+Checking if 460 is adjacent
+Adding 460 to sum_of_nums
+Checking if 677 is adjacent
+Adding 677 to sum_of_nums
+Checking if 110 is adjacent
+Adding 110 to sum_of_nums
+Checking if 549 is adjacent
+Adding 549 to sum_of_nums
+Checking if 934 is adjacent
+Adding 934 to sum_of_nums
+Checking if 654 is adjacent
+Adding 654 to sum_of_nums
+Checking if 334 is adjacent
+Adding 334 to sum_of_nums
+Checking if 153 is adjacent
+Adding 153 to sum_of_nums
+Checking if 508 is adjacent
+Adding 508 to sum_of_nums
+Checking if 556 is adjacent
+Adding 556 to sum_of_nums
+Checking if 913 is adjacent
+Adding 913 to sum_of_nums
+Checking if 199 is adjacent
+Adding 199 to sum_of_nums
+Checking if 513 is adjacent
+Checking if 204 is adjacent
+Adding 204 to sum_of_nums
+Checking if 342 is adjacent
+Adding 342 to sum_of_nums
+Checking if 515 is adjacent
+Adding 515 to sum_of_nums
+Checking if 85 is adjacent
+Adding 85 to sum_of_nums
+Checking if 955 is adjacent
+Checking if 18 is adjacent
+Adding 18 to sum_of_nums
+Checking if 601 is adjacent
+Adding 601 to sum_of_nums
+Checking if 280 is adjacent
+Checking if 80 is adjacent
+Adding 80 to sum_of_nums
+Checking if 515 is adjacent
+Adding 515 to sum_of_nums
+Checking if 259 is adjacent
+Adding 259 to sum_of_nums
+Checking if 250 is adjacent
+Adding 250 to sum_of_nums
+Checking if 3 is adjacent
+Adding 3 to sum_of_nums
+Checking if 337 is adjacent
+Adding 337 to sum_of_nums
+Checking if 83 is adjacent
+Adding 83 to sum_of_nums
+Checking if 972 is adjacent
+Adding 972 to sum_of_nums
+Checking if 586 is adjacent
+Adding 586 to sum_of_nums
+Checking if 5 is adjacent
+Adding 5 to sum_of_nums
+Checking if 651 is adjacent
+Adding 651 to sum_of_nums
+Checking if 594 is adjacent
+Adding 594 to sum_of_nums
+Checking if 484 is adjacent
+Adding 484 to sum_of_nums
+Checking if 126 is adjacent
+Adding 126 to sum_of_nums
+Checking if 121 is adjacent
+Adding 121 to sum_of_nums
+Checking if 935 is adjacent
+Adding 935 to sum_of_nums
+Checking if 235 is adjacent
+Adding 235 to sum_of_nums
+Checking if 815 is adjacent
+Checking if 887 is adjacent
+Adding 887 to sum_of_nums
+Checking if 34 is adjacent
+Adding 34 to sum_of_nums
+Checking if 294 is adjacent
+Adding 294 to sum_of_nums
+Checking if 45 is adjacent
+Checking if 651 is adjacent
+Adding 651 to sum_of_nums
+Checking if 526 is adjacent
+Adding 526 to sum_of_nums
+Checking if 41 is adjacent
+Adding 41 to sum_of_nums
+Checking if 302 is adjacent
+Adding 302 to sum_of_nums
+Checking if 530 is adjacent
+Adding 530 to sum_of_nums
+Checking if 819 is adjacent
+Adding 819 to sum_of_nums
+Checking if 710 is adjacent
+Adding 710 to sum_of_nums
+Checking if 26 is adjacent
+Adding 26 to sum_of_nums
+Checking if 734 is adjacent
+Adding 734 to sum_of_nums
+Checking if 791 is adjacent
+Adding 791 to sum_of_nums
+Checking if 565 is adjacent
+Checking if 625 is adjacent
+Adding 625 to sum_of_nums
+Checking if 887 is adjacent
+Adding 887 to sum_of_nums
+Checking if 381 is adjacent
+Adding 381 to sum_of_nums
+Checking if 741 is adjacent
+Adding 741 to sum_of_nums
+Checking if 881 is adjacent
+Adding 881 to sum_of_nums
+Checking if 989 is adjacent
+Checking if 235 is adjacent
+Adding 235 to sum_of_nums
+Checking if 491 is adjacent
+Adding 491 to sum_of_nums
+Checking if 693 is adjacent
+Adding 693 to sum_of_nums
+Checking if 16 is adjacent
+Adding 16 to sum_of_nums
+Checking if 589 is adjacent
+Adding 589 to sum_of_nums
+Checking if 610 is adjacent
+Adding 610 to sum_of_nums
+Checking if 318 is adjacent
+Adding 318 to sum_of_nums
+Checking if 187 is adjacent
+Adding 187 to sum_of_nums
+Checking if 945 is adjacent
+Adding 945 to sum_of_nums
+Checking if 774 is adjacent
+Adding 774 to sum_of_nums
+Checking if 491 is adjacent
+Checking if 867 is adjacent
+Adding 867 to sum_of_nums
+Checking if 679 is adjacent
+Checking if 957 is adjacent
+Adding 957 to sum_of_nums
+Checking if 614 is adjacent
+Adding 614 to sum_of_nums
+Checking if 553 is adjacent
+Adding 553 to sum_of_nums
+Checking if 345 is adjacent
+Adding 345 to sum_of_nums
+Checking if 56 is adjacent
+Adding 56 to sum_of_nums
+Checking if 658 is adjacent
+Adding 658 to sum_of_nums
+Checking if 870 is adjacent
+Adding 870 to sum_of_nums
+Checking if 895 is adjacent
+Adding 895 to sum_of_nums
+Checking if 714 is adjacent
+Adding 714 to sum_of_nums
+Checking if 749 is adjacent
+Checking if 13 is adjacent
+Adding 13 to sum_of_nums
+Checking if 127 is adjacent
+Checking if 775 is adjacent
+Adding 775 to sum_of_nums
+Checking if 988 is adjacent
+Adding 988 to sum_of_nums
+Checking if 254 is adjacent
+Adding 254 to sum_of_nums
+Checking if 276 is adjacent
+Adding 276 to sum_of_nums
+Checking if 560 is adjacent
+Adding 560 to sum_of_nums
+Checking if 950 is adjacent
+Adding 950 to sum_of_nums
+Checking if 761 is adjacent
+Adding 761 to sum_of_nums
+Checking if 825 is adjacent
+Adding 825 to sum_of_nums
+Checking if 495 is adjacent
+Adding 495 to sum_of_nums
+Checking if 496 is adjacent
+Adding 496 to sum_of_nums
+Checking if 87 is adjacent
+Adding 87 to sum_of_nums
+Checking if 689 is adjacent
+Adding 689 to sum_of_nums
+Checking if 26 is adjacent
+Checking if 131 is adjacent
+Adding 131 to sum_of_nums
+Checking if 639 is adjacent
+Checking if 196 is adjacent
+Adding 196 to sum_of_nums
+Checking if 993 is adjacent
+Adding 993 to sum_of_nums
+Checking if 603 is adjacent
+Adding 603 to sum_of_nums
+Checking if 637 is adjacent
+Checking if 951 is adjacent
+Adding 951 to sum_of_nums
+Checking if 720 is adjacent
+Adding 720 to sum_of_nums
+Checking if 167 is adjacent
+Adding 167 to sum_of_nums
+Checking if 28 is adjacent
+Adding 28 to sum_of_nums
+Checking if 503 is adjacent
+Adding 503 to sum_of_nums
+Checking if 634 is adjacent
+Adding 634 to sum_of_nums
+Checking if 476 is adjacent
+Adding 476 to sum_of_nums
+Checking if 887 is adjacent
+Adding 887 to sum_of_nums
+Checking if 463 is adjacent
+Checking if 221 is adjacent
+Adding 221 to sum_of_nums
+Checking if 457 is adjacent
+Adding 457 to sum_of_nums
+Checking if 698 is adjacent
+Adding 698 to sum_of_nums
+Checking if 413 is adjacent
+Adding 413 to sum_of_nums
+Checking if 539 is adjacent
+Adding 539 to sum_of_nums
+Checking if 672 is adjacent
+Checking if 116 is adjacent
+Adding 116 to sum_of_nums
+Checking if 415 is adjacent
+Adding 415 to sum_of_nums
+Checking if 641 is adjacent
+Adding 641 to sum_of_nums
+Checking if 911 is adjacent
+Adding 911 to sum_of_nums
+Checking if 774 is adjacent
+Adding 774 to sum_of_nums
+Checking if 926 is adjacent
+Checking if 674 is adjacent
+Adding 674 to sum_of_nums
+Checking if 693 is adjacent
+Adding 693 to sum_of_nums
+Checking if 103 is adjacent
+Adding 103 to sum_of_nums
+Checking if 246 is adjacent
+Adding 246 to sum_of_nums
+Checking if 290 is adjacent
+Adding 290 to sum_of_nums
+Checking if 59 is adjacent
+Adding 59 to sum_of_nums
+Checking if 542 is adjacent
+Adding 542 to sum_of_nums
+Checking if 253 is adjacent
+Adding 253 to sum_of_nums
+Checking if 320 is adjacent
+Adding 320 to sum_of_nums
+Checking if 196 is adjacent
+Adding 196 to sum_of_nums
+Checking if 586 is adjacent
+Adding 586 to sum_of_nums
+Checking if 630 is adjacent
+Adding 630 to sum_of_nums
+Checking if 165 is adjacent
+Adding 165 to sum_of_nums
+Checking if 690 is adjacent
+Adding 690 to sum_of_nums
+Checking if 360 is adjacent
+Adding 360 to sum_of_nums
+Checking if 42 is adjacent
+Adding 42 to sum_of_nums
+Checking if 584 is adjacent
+Adding 584 to sum_of_nums
+Checking if 650 is adjacent
+Adding 650 to sum_of_nums
+Checking if 153 is adjacent
+Adding 153 to sum_of_nums
+Checking if 191 is adjacent
+Adding 191 to sum_of_nums
+Checking if 218 is adjacent
+Adding 218 to sum_of_nums
+Checking if 51 is adjacent
+Adding 51 to sum_of_nums
+Checking if 680 is adjacent
+Adding 680 to sum_of_nums
+Checking if 102 is adjacent
+Adding 102 to sum_of_nums
+Checking if 112 is adjacent
+Adding 112 to sum_of_nums
+Checking if 190 is adjacent
+Adding 190 to sum_of_nums
+Checking if 499 is adjacent
+Adding 499 to sum_of_nums
+Checking if 889 is adjacent
+Adding 889 to sum_of_nums
+Checking if 28 is adjacent
+Adding 28 to sum_of_nums
+Checking if 340 is adjacent
+Adding 340 to sum_of_nums
+Checking if 729 is adjacent
+Adding 729 to sum_of_nums
+Checking if 130 is adjacent
+Adding 130 to sum_of_nums
+Checking if 683 is adjacent
+Adding 683 to sum_of_nums
+Checking if 776 is adjacent
+Adding 776 to sum_of_nums
+Checking if 928 is adjacent
+Checking if 351 is adjacent
+Adding 351 to sum_of_nums
+Checking if 878 is adjacent
+Adding 878 to sum_of_nums
+Checking if 681 is adjacent
+Adding 681 to sum_of_nums
+Checking if 889 is adjacent
+Adding 889 to sum_of_nums
+Checking if 564 is adjacent
+Adding 564 to sum_of_nums
+Checking if 55 is adjacent
+Adding 55 to sum_of_nums
+Checking if 839 is adjacent
+Adding 839 to sum_of_nums
+Checking if 226 is adjacent
+Adding 226 to sum_of_nums
+Checking if 246 is adjacent
+Adding 246 to sum_of_nums
+Checking if 719 is adjacent
+Adding 719 to sum_of_nums
+Checking if 954 is adjacent
+Checking if 428 is adjacent
+Adding 428 to sum_of_nums
+Checking if 663 is adjacent
+Adding 663 to sum_of_nums
+Checking if 341 is adjacent
+Checking if 357 is adjacent
+Adding 357 to sum_of_nums
+Checking if 394 is adjacent
+Adding 394 to sum_of_nums
+Checking if 910 is adjacent
+Adding 910 to sum_of_nums
+Checking if 821 is adjacent
+Adding 821 to sum_of_nums
+Checking if 242 is adjacent
+Adding 242 to sum_of_nums
+Checking if 955 is adjacent
+Checking if 569 is adjacent
+Adding 569 to sum_of_nums
+Checking if 964 is adjacent
+Adding 964 to sum_of_nums
+Checking if 381 is adjacent
+Adding 381 to sum_of_nums
+Checking if 923 is adjacent
+Adding 923 to sum_of_nums
+Checking if 491 is adjacent
+Adding 491 to sum_of_nums
+Checking if 906 is adjacent
+Checking if 614 is adjacent
+Adding 614 to sum_of_nums
+Checking if 937 is adjacent
+Adding 937 to sum_of_nums
+Checking if 471 is adjacent
+Adding 471 to sum_of_nums
+Checking if 491 is adjacent
+Adding 491 to sum_of_nums
+Checking if 512 is adjacent
+Adding 512 to sum_of_nums
+Checking if 574 is adjacent
+Adding 574 to sum_of_nums
+Checking if 893 is adjacent
+Adding 893 to sum_of_nums
+Checking if 22 is adjacent
+Adding 22 to sum_of_nums
+Checking if 378 is adjacent
+Adding 378 to sum_of_nums
+Checking if 675 is adjacent
+Adding 675 to sum_of_nums
+Checking if 103 is adjacent
+Adding 103 to sum_of_nums
+Checking if 525 is adjacent
+Adding 525 to sum_of_nums
+Checking if 35 is adjacent
+Adding 35 to sum_of_nums
+Checking if 301 is adjacent
+Adding 301 to sum_of_nums
+Checking if 162 is adjacent
+Adding 162 to sum_of_nums
+Checking if 872 is adjacent
+Adding 872 to sum_of_nums
+Checking if 910 is adjacent
+Checking if 889 is adjacent
+Adding 889 to sum_of_nums
+Checking if 354 is adjacent
+Checking if 871 is adjacent
+Adding 871 to sum_of_nums
+Checking if 679 is adjacent
+Adding 679 to sum_of_nums
+Checking if 894 is adjacent
+Adding 894 to sum_of_nums
+Checking if 731 is adjacent
+Adding 731 to sum_of_nums
+Checking if 178 is adjacent
+Adding 178 to sum_of_nums
+Checking if 543 is adjacent
+Adding 543 to sum_of_nums
+Checking if 865 is adjacent
+Adding 865 to sum_of_nums
+Checking if 857 is adjacent
+Adding 857 to sum_of_nums
+Checking if 630 is adjacent
+Adding 630 to sum_of_nums
+Checking if 954 is adjacent
+Adding 954 to sum_of_nums
+Checking if 433 is adjacent
+Adding 433 to sum_of_nums
+Checking if 615 is adjacent
+Adding 615 to sum_of_nums
+Checking if 828 is adjacent
+Adding 828 to sum_of_nums
+Checking if 745 is adjacent
+Adding 745 to sum_of_nums
+Checking if 556 is adjacent
+Adding 556 to sum_of_nums
+Checking if 321 is adjacent
+Adding 321 to sum_of_nums
+Checking if 342 is adjacent
+Checking if 422 is adjacent
+Adding 422 to sum_of_nums
+Checking if 130 is adjacent
+Adding 130 to sum_of_nums
+Checking if 154 is adjacent
+Adding 154 to sum_of_nums
+Checking if 225 is adjacent
+Adding 225 to sum_of_nums
+Checking if 235 is adjacent
+Adding 235 to sum_of_nums
+Checking if 501 is adjacent
+Adding 501 to sum_of_nums
+Checking if 189 is adjacent
+Adding 189 to sum_of_nums
+Checking if 609 is adjacent
+Adding 609 to sum_of_nums
+Checking if 192 is adjacent
+Adding 192 to sum_of_nums
+Checking if 264 is adjacent
+Adding 264 to sum_of_nums
+Checking if 609 is adjacent
+Adding 609 to sum_of_nums
+Checking if 6 is adjacent
+Adding 6 to sum_of_nums
+Checking if 932 is adjacent
+Adding 932 to sum_of_nums
+Checking if 920 is adjacent
+Adding 920 to sum_of_nums
+Checking if 391 is adjacent
+Adding 391 to sum_of_nums
+Checking if 934 is adjacent
+Adding 934 to sum_of_nums
+Checking if 211 is adjacent
+Adding 211 to sum_of_nums
+Checking if 805 is adjacent
+Adding 805 to sum_of_nums
+Checking if 975 is adjacent
+Adding 975 to sum_of_nums
+Checking if 159 is adjacent
+Adding 159 to sum_of_nums
+Checking if 713 is adjacent
+Adding 713 to sum_of_nums
+Checking if 850 is adjacent
+Adding 850 to sum_of_nums
+Checking if 924 is adjacent
+Adding 924 to sum_of_nums
+Checking if 212 is adjacent
+Adding 212 to sum_of_nums
+Checking if 176 is adjacent
+Adding 176 to sum_of_nums
+Checking if 381 is adjacent
+Adding 381 to sum_of_nums
+Checking if 917 is adjacent
+Adding 917 to sum_of_nums
+Checking if 905 is adjacent
+Checking if 276 is adjacent
+Adding 276 to sum_of_nums
+Checking if 352 is adjacent
+Adding 352 to sum_of_nums
+Checking if 524 is adjacent
+Adding 524 to sum_of_nums
+Checking if 878 is adjacent
+Adding 878 to sum_of_nums
+Checking if 867 is adjacent
+Adding 867 to sum_of_nums
+Checking if 769 is adjacent
+Checking if 152 is adjacent
+Adding 152 to sum_of_nums
+Checking if 484 is adjacent
+Adding 484 to sum_of_nums
+Checking if 341 is adjacent
+Checking if 664 is adjacent
+Adding 664 to sum_of_nums
+Checking if 390 is adjacent
+Adding 390 to sum_of_nums
+Checking if 140 is adjacent
+Adding 140 to sum_of_nums
+Checking if 566 is adjacent
+Checking if 163 is adjacent
+Adding 163 to sum_of_nums
+Checking if 995 is adjacent
+Checking if 811 is adjacent
+Adding 811 to sum_of_nums
+Checking if 874 is adjacent
+Adding 874 to sum_of_nums
+Checking if 43 is adjacent
+Adding 43 to sum_of_nums
+Checking if 989 is adjacent
+Adding 989 to sum_of_nums
+Checking if 239 is adjacent
+Checking if 917 is adjacent
+Adding 917 to sum_of_nums
+Checking if 131 is adjacent
+Adding 131 to sum_of_nums
+Checking if 13 is adjacent
+Adding 13 to sum_of_nums
+Checking if 806 is adjacent
+Adding 806 to sum_of_nums
+Checking if 174 is adjacent
+Adding 174 to sum_of_nums
+Checking if 184 is adjacent
+Adding 184 to sum_of_nums
+Checking if 72 is adjacent
+Adding 72 to sum_of_nums
+Checking if 928 is adjacent
+Adding 928 to sum_of_nums
+Checking if 684 is adjacent
+Adding 684 to sum_of_nums
+Checking if 118 is adjacent
+Adding 118 to sum_of_nums
+Checking if 239 is adjacent
+Adding 239 to sum_of_nums
+Checking if 609 is adjacent
+Adding 609 to sum_of_nums
+Checking if 116 is adjacent
+Adding 116 to sum_of_nums
+Checking if 241 is adjacent
+Adding 241 to sum_of_nums
+Checking if 826 is adjacent
+Adding 826 to sum_of_nums
+Checking if 312 is adjacent
+Adding 312 to sum_of_nums
+Checking if 779 is adjacent
+Adding 779 to sum_of_nums
+Checking if 871 is adjacent
+Adding 871 to sum_of_nums
+Checking if 475 is adjacent
+Adding 475 to sum_of_nums
+Checking if 883 is adjacent
+Adding 883 to sum_of_nums
+Checking if 717 is adjacent
+Adding 717 to sum_of_nums
+Checking if 538 is adjacent
+Adding 538 to sum_of_nums
+Checking if 581 is adjacent
+Adding 581 to sum_of_nums
+Checking if 424 is adjacent
+Adding 424 to sum_of_nums
+Checking if 259 is adjacent
+Adding 259 to sum_of_nums
+Checking if 33 is adjacent
+Adding 33 to sum_of_nums
+Checking if 574 is adjacent
+Adding 574 to sum_of_nums
+Checking if 647 is adjacent
+Adding 647 to sum_of_nums
+Checking if 378 is adjacent
+Adding 378 to sum_of_nums
+Checking if 803 is adjacent
+Adding 803 to sum_of_nums
+Checking if 260 is adjacent
+Adding 260 to sum_of_nums
+Checking if 543 is adjacent
+Adding 543 to sum_of_nums
+Checking if 76 is adjacent
+Adding 76 to sum_of_nums
+Checking if 464 is adjacent
+Adding 464 to sum_of_nums
+Checking if 611 is adjacent
+Adding 611 to sum_of_nums
+Checking if 42 is adjacent
+Adding 42 to sum_of_nums
+Checking if 40 is adjacent
+Adding 40 to sum_of_nums
+Checking if 375 is adjacent
+Adding 375 to sum_of_nums
+Checking if 30 is adjacent
+Checking if 371 is adjacent
+Adding 371 to sum_of_nums
+Checking if 666 is adjacent
+Adding 666 to sum_of_nums
+Checking if 185 is adjacent
+Adding 185 to sum_of_nums
+Checking if 161 is adjacent
+Adding 161 to sum_of_nums
+Checking if 968 is adjacent
+Adding 968 to sum_of_nums
+Checking if 295 is adjacent
+Adding 295 to sum_of_nums
+Checking if 789 is adjacent
+Adding 789 to sum_of_nums
+Checking if 548 is adjacent
+Checking if 993 is adjacent
+Adding 993 to sum_of_nums
+Checking if 616 is adjacent
+Checking if 5 is adjacent
+Adding 5 to sum_of_nums
+Checking if 662 is adjacent
+Adding 662 to sum_of_nums
+Checking if 760 is adjacent
+Adding 760 to sum_of_nums
+Checking if 670 is adjacent
+Adding 670 to sum_of_nums
+Checking if 272 is adjacent
+Adding 272 to sum_of_nums
+Checking if 951 is adjacent
+Checking if 501 is adjacent
+Adding 501 to sum_of_nums
+Checking if 248 is adjacent
+Adding 248 to sum_of_nums
+Checking if 317 is adjacent
+Adding 317 to sum_of_nums
+Checking if 752 is adjacent
+Adding 752 to sum_of_nums
+Checking if 616 is adjacent
+Adding 616 to sum_of_nums
+Checking if 739 is adjacent
+Adding 739 to sum_of_nums
+Checking if 113 is adjacent
+Adding 113 to sum_of_nums
+Checking if 192 is adjacent
+Adding 192 to sum_of_nums
+Checking if 267 is adjacent
+Adding 267 to sum_of_nums
+Checking if 761 is adjacent
+Adding 761 to sum_of_nums
+Checking if 192 is adjacent
+Adding 192 to sum_of_nums
+Checking if 456 is adjacent
+Adding 456 to sum_of_nums
+Checking if 572 is adjacent
+Checking if 606 is adjacent
+Checking if 628 is adjacent
+Adding 628 to sum_of_nums
+Checking if 342 is adjacent
+Adding 342 to sum_of_nums
+Checking if 503 is adjacent
+Adding 503 to sum_of_nums
+Checking if 409 is adjacent
+Adding 409 to sum_of_nums
+Checking if 310 is adjacent
+Adding 310 to sum_of_nums
+Checking if 516 is adjacent
+Adding 516 to sum_of_nums
+Checking if 316 is adjacent
+Checking if 622 is adjacent
+Adding 622 to sum_of_nums
+Checking if 181 is adjacent
+Adding 181 to sum_of_nums
+Checking if 454 is adjacent
+Adding 454 to sum_of_nums
+Checking if 491 is adjacent
+Adding 491 to sum_of_nums
+Checking if 738 is adjacent
+Adding 738 to sum_of_nums
+Checking if 214 is adjacent
+Adding 214 to sum_of_nums
+Checking if 937 is adjacent
+Adding 937 to sum_of_nums
+Checking if 764 is adjacent
+Adding 764 to sum_of_nums
+Checking if 391 is adjacent
+Adding 391 to sum_of_nums
+Checking if 836 is adjacent
+Adding 836 to sum_of_nums
+Checking if 183 is adjacent
+Checking if 402 is adjacent
+Adding 402 to sum_of_nums
+Checking if 825 is adjacent
+Adding 825 to sum_of_nums
+Checking if 921 is adjacent
+Adding 921 to sum_of_nums
+Checking if 843 is adjacent
+Adding 843 to sum_of_nums
+Checking if 897 is adjacent
+Adding 897 to sum_of_nums
+Checking if 546 is adjacent
+Adding 546 to sum_of_nums
+Checking if 264 is adjacent
+Adding 264 to sum_of_nums
+Checking if 471 is adjacent
+Adding 471 to sum_of_nums
+Checking if 174 is adjacent
+Adding 174 to sum_of_nums
+Checking if 921 is adjacent
+Checking if 276 is adjacent
+Adding 276 to sum_of_nums
+Checking if 513 is adjacent
+Adding 513 to sum_of_nums
+Checking if 598 is adjacent
+Adding 598 to sum_of_nums
+Checking if 691 is adjacent
+Adding 691 to sum_of_nums
+Checking if 64 is adjacent
+Checking if 439 is adjacent
+Adding 439 to sum_of_nums
+Checking if 445 is adjacent
+Adding 445 to sum_of_nums
+Checking if 701 is adjacent
+Adding 701 to sum_of_nums
+Checking if 377 is adjacent
+Adding 377 to sum_of_nums
+Checking if 491 is adjacent
+Adding 491 to sum_of_nums
+Checking if 422 is adjacent
+Adding 422 to sum_of_nums
+Checking if 591 is adjacent
+Checking if 658 is adjacent
+Checking if 426 is adjacent
+Adding 426 to sum_of_nums
+Checking if 689 is adjacent
+Adding 689 to sum_of_nums
+Checking if 687 is adjacent
+Checking if 175 is adjacent
+Adding 175 to sum_of_nums
+Checking if 171 is adjacent
+Adding 171 to sum_of_nums
+Checking if 429 is adjacent
+Adding 429 to sum_of_nums
+Checking if 260 is adjacent
+Adding 260 to sum_of_nums
+Checking if 513 is adjacent
+Adding 513 to sum_of_nums
+Checking if 477 is adjacent
+Adding 477 to sum_of_nums
+Checking if 375 is adjacent
+Adding 375 to sum_of_nums
+Checking if 641 is adjacent
+Adding 641 to sum_of_nums
+Checking if 108 is adjacent
+Adding 108 to sum_of_nums
+Checking if 444 is adjacent
+Adding 444 to sum_of_nums
+Checking if 779 is adjacent
+Adding 779 to sum_of_nums
+Checking if 140 is adjacent
+Adding 140 to sum_of_nums
+Checking if 24 is adjacent
+Adding 24 to sum_of_nums
+Checking if 22 is adjacent
+Adding 22 to sum_of_nums
+Checking if 28 is adjacent
+Adding 28 to sum_of_nums
+Checking if 682 is adjacent
+Adding 682 to sum_of_nums
+Checking if 348 is adjacent
+Adding 348 to sum_of_nums
+Checking if 153 is adjacent
+Adding 153 to sum_of_nums
+Checking if 168 is adjacent
+Adding 168 to sum_of_nums
+Checking if 451 is adjacent
+Adding 451 to sum_of_nums
+Checking if 627 is adjacent
+Checking if 236 is adjacent
+Adding 236 to sum_of_nums
+Checking if 92 is adjacent
+Adding 92 to sum_of_nums
+Checking if 141 is adjacent
+Adding 141 to sum_of_nums
+Checking if 393 is adjacent
+Adding 393 to sum_of_nums
+Checking if 669 is adjacent
+Adding 669 to sum_of_nums
+Checking if 75 is adjacent
+Adding 75 to sum_of_nums
+Checking if 557 is adjacent
+Adding 557 to sum_of_nums
+Checking if 585 is adjacent
+Checking if 826 is adjacent
+Adding 826 to sum_of_nums
+Checking if 559 is adjacent
+Adding 559 to sum_of_nums
+Checking if 881 is adjacent
+Adding 881 to sum_of_nums
+Checking if 776 is adjacent
+Adding 776 to sum_of_nums
+Checking if 105 is adjacent
+Checking if 526 is adjacent
+Adding 526 to sum_of_nums
+Checking if 955 is adjacent
+Adding 955 to sum_of_nums
+Checking if 410 is adjacent
+Checking if 566 is adjacent
+Adding 566 to sum_of_nums
+Checking if 760 is adjacent
+Adding 760 to sum_of_nums
+Checking if 760 is adjacent
+Adding 760 to sum_of_nums
+Checking if 586 is adjacent
+Adding 586 to sum_of_nums
+Checking if 560 is adjacent
+Adding 560 to sum_of_nums
+Checking if 548 is adjacent
+Adding 548 to sum_of_nums
+Checking if 335 is adjacent
+Adding 335 to sum_of_nums
+Checking if 951 is adjacent
+Adding 951 to sum_of_nums
+Checking if 749 is adjacent
+Adding 749 to sum_of_nums
+Checking if 256 is adjacent
+Adding 256 to sum_of_nums
+Checking if 313 is adjacent
+Adding 313 to sum_of_nums
+Checking if 888 is adjacent
+Checking if 45 is adjacent
+Adding 45 to sum_of_nums
+Checking if 798 is adjacent
+Adding 798 to sum_of_nums
+Checking if 199 is adjacent
+Adding 199 to sum_of_nums
+Checking if 77 is adjacent
+Adding 77 to sum_of_nums
+Checking if 280 is adjacent
+Adding 280 to sum_of_nums
+Checking if 347 is adjacent
+Adding 347 to sum_of_nums
+Checking if 207 is adjacent
+Adding 207 to sum_of_nums
+Checking if 495 is adjacent
+Adding 495 to sum_of_nums
+Checking if 934 is adjacent
+Adding 934 to sum_of_nums
+Checking if 36 is adjacent
+Checking if 841 is adjacent
+Adding 841 to sum_of_nums
+Checking if 952 is adjacent
+Adding 952 to sum_of_nums
+Checking if 266 is adjacent
+Adding 266 to sum_of_nums
+Checking if 997 is adjacent
+Adding 997 to sum_of_nums
+Checking if 840 is adjacent
+Adding 840 to sum_of_nums
+Checking if 867 is adjacent
+Adding 867 to sum_of_nums
+Checking if 179 is adjacent
+Adding 179 to sum_of_nums
+Checking if 86 is adjacent
+Adding 86 to sum_of_nums
+Checking if 759 is adjacent
+Adding 759 to sum_of_nums
+Checking if 33 is adjacent
+Adding 33 to sum_of_nums
+Checking if 576 is adjacent
+Adding 576 to sum_of_nums
+Checking if 953 is adjacent
+Adding 953 to sum_of_nums
+Checking if 722 is adjacent
+Checking if 22 is adjacent
+Adding 22 to sum_of_nums
+Checking if 952 is adjacent
+Adding 952 to sum_of_nums
+Checking if 965 is adjacent
+Adding 965 to sum_of_nums
+Checking if 777 is adjacent
+Adding 777 to sum_of_nums
+Checking if 371 is adjacent
+Adding 371 to sum_of_nums
+Checking if 795 is adjacent
+Checking if 987 is adjacent
+Adding 987 to sum_of_nums
+Checking if 490 is adjacent
+Adding 490 to sum_of_nums
+Checking if 904 is adjacent
+Adding 904 to sum_of_nums
+Checking if 4 is adjacent
+Checking if 598 is adjacent
+Adding 598 to sum_of_nums
+Checking if 635 is adjacent
+Adding 635 to sum_of_nums
+Checking if 328 is adjacent
+Adding 328 to sum_of_nums
+Checking if 563 is adjacent
+Adding 563 to sum_of_nums
+Checking if 270 is adjacent
+Adding 270 to sum_of_nums
+Checking if 453 is adjacent
+Adding 453 to sum_of_nums
+Checking if 689 is adjacent
+Adding 689 to sum_of_nums
+Checking if 992 is adjacent
+Adding 992 to sum_of_nums
+Checking if 752 is adjacent
+Adding 752 to sum_of_nums
+Checking if 790 is adjacent
+Adding 790 to sum_of_nums
+Checking if 608 is adjacent
+Adding 608 to sum_of_nums
+Checking if 914 is adjacent
+Adding 914 to sum_of_nums
+Checking if 69 is adjacent
+Adding 69 to sum_of_nums
+Checking if 250 is adjacent
+Adding 250 to sum_of_nums
+Checking if 200 is adjacent
+Adding 200 to sum_of_nums
+Checking if 996 is adjacent
+Adding 996 to sum_of_nums
+Checking if 892 is adjacent
+Adding 892 to sum_of_nums
+Checking if 472 is adjacent
+Adding 472 to sum_of_nums
+Checking if 710 is adjacent
+Adding 710 to sum_of_nums
+Checking if 604 is adjacent
+Adding 604 to sum_of_nums
+Checking if 401 is adjacent
+Adding 401 to sum_of_nums
+Checking if 622 is adjacent
+Adding 622 to sum_of_nums
+Checking if 742 is adjacent
+Checking if 685 is adjacent
+Adding 685 to sum_of_nums
+Checking if 284 is adjacent
+Checking if 401 is adjacent
+Adding 401 to sum_of_nums
+Checking if 802 is adjacent
+Adding 802 to sum_of_nums
+Checking if 65 is adjacent
+Adding 65 to sum_of_nums
+Checking if 166 is adjacent
+Adding 166 to sum_of_nums
+Checking if 901 is adjacent
+Adding 901 to sum_of_nums
+Checking if 196 is adjacent
+Adding 196 to sum_of_nums
+Checking if 65 is adjacent
+Adding 65 to sum_of_nums
+Checking if 369 is adjacent
+Adding 369 to sum_of_nums
+Checking if 815 is adjacent
+Adding 815 to sum_of_nums
+Checking if 925 is adjacent
+Checking if 529 is adjacent
+Adding 529 to sum_of_nums
+Checking if 262 is adjacent
+Checking if 234 is adjacent
+Adding 234 to sum_of_nums
+Checking if 729 is adjacent
+Adding 729 to sum_of_nums
+Checking if 37 is adjacent
+Adding 37 to sum_of_nums
+Checking if 95 is adjacent
+Adding 95 to sum_of_nums
+Checking if 401 is adjacent
+Adding 401 to sum_of_nums
+Checking if 704 is adjacent
+Checking if 499 is adjacent
+Adding 499 to sum_of_nums
+Checking if 775 is adjacent
+Adding 775 to sum_of_nums
+Checking if 475 is adjacent
+Adding 475 to sum_of_nums
+Checking if 287 is adjacent
+Adding 287 to sum_of_nums
+Checking if 379 is adjacent
+Adding 379 to sum_of_nums
+Checking if 597 is adjacent
+Adding 597 to sum_of_nums
+Checking if 527 is adjacent
+Adding 527 to sum_of_nums
+Checking if 264 is adjacent
+Adding 264 to sum_of_nums
+Checking if 728 is adjacent
+Adding 728 to sum_of_nums
+Checking if 766 is adjacent
+Adding 766 to sum_of_nums
+Checking if 619 is adjacent
+Adding 619 to sum_of_nums
+Checking if 604 is adjacent
+Adding 604 to sum_of_nums
+Checking if 75 is adjacent
+Adding 75 to sum_of_nums
+Checking if 834 is adjacent
+Adding 834 to sum_of_nums
+Checking if 912 is adjacent
+Adding 912 to sum_of_nums
+Checking if 715 is adjacent
+Adding 715 to sum_of_nums
+Checking if 981 is adjacent
+Adding 981 to sum_of_nums
+Checking if 556 is adjacent
+Adding 556 to sum_of_nums
+Checking if 389 is adjacent
+Adding 389 to sum_of_nums
+Checking if 888 is adjacent
+Checking if 734 is adjacent
+Adding 734 to sum_of_nums
+Checking if 862 is adjacent
+Adding 862 to sum_of_nums
+Checking if 378 is adjacent
+Adding 378 to sum_of_nums
+Checking if 412 is adjacent
+Adding 412 to sum_of_nums
+Checking if 556 is adjacent
+Adding 556 to sum_of_nums
+Checking if 213 is adjacent
+Adding 213 to sum_of_nums
+Checking if 68 is adjacent
+Adding 68 to sum_of_nums
+Checking if 696 is adjacent
+Adding 696 to sum_of_nums
+Checking if 726 is adjacent
+Adding 726 to sum_of_nums
+Checking if 678 is adjacent
+Adding 678 to sum_of_nums
+Checking if 931 is adjacent
+Checking if 991 is adjacent
+Adding 991 to sum_of_nums
+Checking if 349 is adjacent
+Adding 349 to sum_of_nums
+Checking if 477 is adjacent
+Adding 477 to sum_of_nums
+Checking if 7 is adjacent
+Adding 7 to sum_of_nums
+Checking if 313 is adjacent
+Adding 313 to sum_of_nums
+Checking if 27 is adjacent
+Adding 27 to sum_of_nums
+Checking if 896 is adjacent
+Adding 896 to sum_of_nums
+Checking if 13 is adjacent
+Adding 13 to sum_of_nums
+Checking if 61 is adjacent
+Adding 61 to sum_of_nums
+Checking if 386 is adjacent
+Adding 386 to sum_of_nums
+Checking if 357 is adjacent
+Adding 357 to sum_of_nums
+Checking if 471 is adjacent
+Adding 471 to sum_of_nums
+Checking if 126 is adjacent
+Adding 126 to sum_of_nums
+Checking if 579 is adjacent
+Adding 579 to sum_of_nums
+Checking if 772 is adjacent
+Adding 772 to sum_of_nums
+Checking if 828 is adjacent
+Adding 828 to sum_of_nums
+Checking if 322 is adjacent
+Adding 322 to sum_of_nums
+Checking if 644 is adjacent
+Adding 644 to sum_of_nums
+Checking if 844 is adjacent
+Adding 844 to sum_of_nums
+Checking if 159 is adjacent
+Adding 159 to sum_of_nums
+Checking if 263 is adjacent
+Adding 263 to sum_of_nums
+Checking if 457 is adjacent
+Adding 457 to sum_of_nums
+Checking if 772 is adjacent
+Adding 772 to sum_of_nums
+Checking if 803 is adjacent
+Adding 803 to sum_of_nums
+Checking if 158 is adjacent
+Adding 158 to sum_of_nums
+Checking if 202 is adjacent
+Adding 202 to sum_of_nums
+Checking if 133 is adjacent
+Adding 133 to sum_of_nums
+Checking if 362 is adjacent
+Adding 362 to sum_of_nums
+Checking if 841 is adjacent
+Adding 841 to sum_of_nums
+Checking if 322 is adjacent
+Adding 322 to sum_of_nums
+Checking if 730 is adjacent
+Checking if 868 is adjacent
+Adding 868 to sum_of_nums
+Checking if 116 is adjacent
+Adding 116 to sum_of_nums
+Checking if 221 is adjacent
+Adding 221 to sum_of_nums
+Checking if 41 is adjacent
+Checking if 508 is adjacent
+Adding 508 to sum_of_nums
+Checking if 465 is adjacent
+Adding 465 to sum_of_nums
+Checking if 667 is adjacent
+Adding 667 to sum_of_nums
+Checking if 979 is adjacent
+Adding 979 to sum_of_nums
+Checking if 983 is adjacent
+Adding 983 to sum_of_nums
+Checking if 905 is adjacent
+Adding 905 to sum_of_nums
+Checking if 321 is adjacent
+Adding 321 to sum_of_nums
+Checking if 731 is adjacent
+Adding 731 to sum_of_nums
+Checking if 690 is adjacent
+Adding 690 to sum_of_nums
+Checking if 190 is adjacent
+Adding 190 to sum_of_nums
+Checking if 999 is adjacent
+Adding 999 to sum_of_nums
+Checking if 759 is adjacent
+Adding 759 to sum_of_nums
+Checking if 515 is adjacent
+Checking if 905 is adjacent
+Adding 905 to sum_of_nums
+Checking if 58 is adjacent
+Adding 58 to sum_of_nums
+Checking if 801 is adjacent
+Adding 801 to sum_of_nums
+Checking if 199 is adjacent
+Adding 199 to sum_of_nums
+Checking if 305 is adjacent
+Adding 305 to sum_of_nums
+Checking if 168 is adjacent
+Adding 168 to sum_of_nums
+Checking if 298 is adjacent
+Adding 298 to sum_of_nums
+Checking if 25 is adjacent
+Adding 25 to sum_of_nums
+Checking if 604 is adjacent
+Checking if 434 is adjacent
+Adding 434 to sum_of_nums
+Checking if 531 is adjacent
+Adding 531 to sum_of_nums
+Checking if 217 is adjacent
+Adding 217 to sum_of_nums
+Checking if 497 is adjacent
+Adding 497 to sum_of_nums
+Checking if 744 is adjacent
+Adding 744 to sum_of_nums
+Checking if 791 is adjacent
+Adding 791 to sum_of_nums
+Checking if 633 is adjacent
+Checking if 657 is adjacent
+Adding 657 to sum_of_nums
+Checking if 952 is adjacent
+Checking if 241 is adjacent
+Adding 241 to sum_of_nums
+Checking if 675 is adjacent
+Adding 675 to sum_of_nums
+Checking if 156 is adjacent
+Adding 156 to sum_of_nums
+Checking if 831 is adjacent
+Adding 831 to sum_of_nums
+Checking if 800 is adjacent
+Adding 800 to sum_of_nums
+Checking if 859 is adjacent
+Checking if 484 is adjacent
+Checking if 894 is adjacent
+Adding 894 to sum_of_nums
+Checking if 294 is adjacent
+Checking if 825 is adjacent
+Checking if 655 is adjacent
+Adding 655 to sum_of_nums
+Checking if 627 is adjacent
+Adding 627 to sum_of_nums
+Checking if 586 is adjacent
+Adding 586 to sum_of_nums
+Checking if 790 is adjacent
+Adding 790 to sum_of_nums
+Checking if 178 is adjacent
+Checking if 716 is adjacent
+Adding 716 to sum_of_nums
+Checking if 618 is adjacent
+Checking if 808 is adjacent
+Adding 808 to sum_of_nums
+Checking if 794 is adjacent
+Adding 794 to sum_of_nums
+Checking if 401 is adjacent
+Adding 401 to sum_of_nums
+Checking if 708 is adjacent
+Checking if 897 is adjacent
+Adding 897 to sum_of_nums
+Checking if 655 is adjacent
+Adding 655 to sum_of_nums
+Checking if 351 is adjacent
+Adding 351 to sum_of_nums
+Checking if 426 is adjacent
+Adding 426 to sum_of_nums
+Checking if 148 is adjacent
+Adding 148 to sum_of_nums
+Checking if 798 is adjacent
+Adding 798 to sum_of_nums
+Checking if 594 is adjacent
+Adding 594 to sum_of_nums
+Checking if 827 is adjacent
+Adding 827 to sum_of_nums
+Checking if 166 is adjacent
+Adding 166 to sum_of_nums
+Checking if 784 is adjacent
+Adding 784 to sum_of_nums
+Checking if 754 is adjacent
+Adding 754 to sum_of_nums
+Checking if 14 is adjacent
+Checking if 93 is adjacent
+Checking if 87 is adjacent
+Adding 87 to sum_of_nums
+Checking if 205 is adjacent
+Adding 205 to sum_of_nums
+Checking if 224 is adjacent
+Adding 224 to sum_of_nums
+Checking if 784 is adjacent
+Adding 784 to sum_of_nums
+Checking if 88 is adjacent
+Adding 88 to sum_of_nums
+Checking if 18 is adjacent
+Adding 18 to sum_of_nums
+Checking if 977 is adjacent
+Adding 977 to sum_of_nums
+Checking if 726 is adjacent
+Adding 726 to sum_of_nums
+Checking if 56 is adjacent
+Adding 56 to sum_of_nums
+Checking if 575 is adjacent
+Adding 575 to sum_of_nums
+Checking if 139 is adjacent
+Adding 139 to sum_of_nums
+Checking if 652 is adjacent
+Checking if 304 is adjacent
+Adding 304 to sum_of_nums
+Checking if 574 is adjacent
+Adding 574 to sum_of_nums
+Checking if 714 is adjacent
+Adding 714 to sum_of_nums
+Checking if 397 is adjacent
+Adding 397 to sum_of_nums
+Checking if 920 is adjacent
+Adding 920 to sum_of_nums
+Checking if 376 is adjacent
+Adding 376 to sum_of_nums
+Checking if 627 is adjacent
+Adding 627 to sum_of_nums
+Checking if 208 is adjacent
+Adding 208 to sum_of_nums
+Checking if 504 is adjacent
+Adding 504 to sum_of_nums
+Checking if 609 is adjacent
+Adding 609 to sum_of_nums
+Checking if 535 is adjacent
+Adding 535 to sum_of_nums
+Checking if 280 is adjacent
+Adding 280 to sum_of_nums
+Checking if 330 is adjacent
+Adding 330 to sum_of_nums
+Checking if 257 is adjacent
+Adding 257 to sum_of_nums
+Checking if 738 is adjacent
+Adding 738 to sum_of_nums
+Checking if 271 is adjacent
+Checking if 453 is adjacent
+Adding 453 to sum_of_nums
+Checking if 55 is adjacent
+Adding 55 to sum_of_nums
+Checking if 971 is adjacent
+Adding 971 to sum_of_nums
+Checking if 185 is adjacent
+Checking if 931 is adjacent
+Checking if 762 is adjacent
+Adding 762 to sum_of_nums
+Checking if 902 is adjacent
+Adding 902 to sum_of_nums
+Checking if 837 is adjacent
+Adding 837 to sum_of_nums
+Checking if 922 is adjacent
+Adding 922 to sum_of_nums
+Checking if 34 is adjacent
+Adding 34 to sum_of_nums
+Checking if 915 is adjacent
+Adding 915 to sum_of_nums
+Checking if 158 is adjacent
+Adding 158 to sum_of_nums
+Checking if 107 is adjacent
+Adding 107 to sum_of_nums
+Checking if 92 is adjacent
+Adding 92 to sum_of_nums
+Checking if 770 is adjacent
+Adding 770 to sum_of_nums
+Checking if 991 is adjacent
+Adding 991 to sum_of_nums
+Checking if 130 is adjacent
+Adding 130 to sum_of_nums
+Checking if 256 is adjacent
+Adding 256 to sum_of_nums
+Checking if 910 is adjacent
+Adding 910 to sum_of_nums
+Checking if 550 is adjacent
+Adding 550 to sum_of_nums
+Checking if 783 is adjacent
+Adding 783 to sum_of_nums
+Checking if 675 is adjacent
+Adding 675 to sum_of_nums
+Checking if 993 is adjacent
+Checking if 516 is adjacent
+Adding 516 to sum_of_nums
+Checking if 87 is adjacent
+Adding 87 to sum_of_nums
+Checking if 147 is adjacent
+Adding 147 to sum_of_nums
+Checking if 268 is adjacent
+Checking if 492 is adjacent
+Adding 492 to sum_of_nums
+Checking if 190 is adjacent
+Checking if 611 is adjacent
+Adding 611 to sum_of_nums
+Checking if 450 is adjacent
+Adding 450 to sum_of_nums
+Checking if 828 is adjacent
+Adding 828 to sum_of_nums
+Checking if 840 is adjacent
+Adding 840 to sum_of_nums
+Checking if 514 is adjacent
+Adding 514 to sum_of_nums
+Checking if 24 is adjacent
+Adding 24 to sum_of_nums
+Checking if 361 is adjacent
+Adding 361 to sum_of_nums
+Checking if 485 is adjacent
+Adding 485 to sum_of_nums
+Checking if 504 is adjacent
+Adding 504 to sum_of_nums
+Checking if 778 is adjacent
+Adding 778 to sum_of_nums
+Checking if 809 is adjacent
+Adding 809 to sum_of_nums
+Checking if 486 is adjacent
+Adding 486 to sum_of_nums
+Checking if 552 is adjacent
+Adding 552 to sum_of_nums
+Checking if 206 is adjacent
+Checking if 576 is adjacent
+Adding 576 to sum_of_nums
+Checking if 595 is adjacent
+Adding 595 to sum_of_nums
+Checking if 382 is adjacent
+Adding 382 to sum_of_nums
+Checking if 288 is adjacent
+Checking if 625 is adjacent
+Adding 625 to sum_of_nums
+Checking if 382 is adjacent
+Adding 382 to sum_of_nums
+Checking if 318 is adjacent
+Adding 318 to sum_of_nums
+Checking if 869 is adjacent
+Adding 869 to sum_of_nums
+Checking if 344 is adjacent
+Adding 344 to sum_of_nums
+Checking if 361 is adjacent
+Adding 361 to sum_of_nums
+Checking if 298 is adjacent
+Adding 298 to sum_of_nums
+Checking if 171 is adjacent
+Adding 171 to sum_of_nums
+Checking if 525 is adjacent
+Adding 525 to sum_of_nums
+Checking if 912 is adjacent
+Adding 912 to sum_of_nums
+Checking if 593 is adjacent
+Adding 593 to sum_of_nums
+Checking if 407 is adjacent
+Adding 407 to sum_of_nums
+Checking if 43 is adjacent
+Adding 43 to sum_of_nums
+Checking if 193 is adjacent
+Adding 193 to sum_of_nums
+Checking if 676 is adjacent
+Adding 676 to sum_of_nums
+Checking if 160 is adjacent
+Adding 160 to sum_of_nums
+Checking if 262 is adjacent
+Adding 262 to sum_of_nums
+Checking if 259 is adjacent
+Adding 259 to sum_of_nums
+Checking if 724 is adjacent
+Adding 724 to sum_of_nums
+Checking if 35 is adjacent
+Checking if 879 is adjacent
+Adding 879 to sum_of_nums
+Checking if 327 is adjacent
+Adding 327 to sum_of_nums
+Checking if 247 is adjacent
+Adding 247 to sum_of_nums
+Checking if 381 is adjacent
+Adding 381 to sum_of_nums
+Checking if 32 is adjacent
+Adding 32 to sum_of_nums
+Checking if 183 is adjacent
+Checking if 735 is adjacent
+Adding 735 to sum_of_nums
+Checking if 171 is adjacent
+Adding 171 to sum_of_nums
+Checking if 178 is adjacent
+Adding 178 to sum_of_nums
+Checking if 925 is adjacent
+Adding 925 to sum_of_nums
+Checking if 70 is adjacent
+Adding 70 to sum_of_nums
+Checking if 235 is adjacent
+Checking if 363 is adjacent
+Adding 363 to sum_of_nums
+Checking if 97 is adjacent
+Checking if 764 is adjacent
+Adding 764 to sum_of_nums
+Checking if 792 is adjacent
+Adding 792 to sum_of_nums
+Checking if 250 is adjacent
+Adding 250 to sum_of_nums
+Checking if 471 is adjacent
+Adding 471 to sum_of_nums
+Checking if 975 is adjacent
+Adding 975 to sum_of_nums
+Checking if 42 is adjacent
+Adding 42 to sum_of_nums
+Checking if 13 is adjacent
+Adding 13 to sum_of_nums
+Checking if 687 is adjacent
+Adding 687 to sum_of_nums
+Checking if 934 is adjacent
+Adding 934 to sum_of_nums
+Checking if 181 is adjacent
+Adding 181 to sum_of_nums
+Checking if 62 is adjacent
+Adding 62 to sum_of_nums
+Checking if 532 is adjacent
+Checking if 9 is adjacent
+Checking if 678 is adjacent
+Adding 678 to sum_of_nums
+Checking if 714 is adjacent
+Adding 714 to sum_of_nums
+Checking if 53 is adjacent
+Checking if 245 is adjacent
+Adding 245 to sum_of_nums
+Checking if 598 is adjacent
+Adding 598 to sum_of_nums
+Checking if 251 is adjacent
+Adding 251 to sum_of_nums
+Checking if 116 is adjacent
+Adding 116 to sum_of_nums
+Checking if 269 is adjacent
+Adding 269 to sum_of_nums
+Checking if 483 is adjacent
+Adding 483 to sum_of_nums
+Checking if 387 is adjacent
+Adding 387 to sum_of_nums
+Checking if 498 is adjacent
+Adding 498 to sum_of_nums
+Checking if 519 is adjacent
+Adding 519 to sum_of_nums
+Checking if 600 is adjacent
+Adding 600 to sum_of_nums
+Checking if 373 is adjacent
+Adding 373 to sum_of_nums
+Checking if 746 is adjacent
+Checking if 497 is adjacent
+Checking if 248 is adjacent
+Adding 248 to sum_of_nums
+Checking if 42 is adjacent
+Adding 42 to sum_of_nums
+Checking if 647 is adjacent
+Checking if 776 is adjacent
+Adding 776 to sum_of_nums
+Checking if 9 is adjacent
+Adding 9 to sum_of_nums
+Checking if 601 is adjacent
+Adding 601 to sum_of_nums
+Checking if 560 is adjacent
+Adding 560 to sum_of_nums
+Checking if 696 is adjacent
+Adding 696 to sum_of_nums
+Checking if 267 is adjacent
+Adding 267 to sum_of_nums
+Checking if 102 is adjacent
+Adding 102 to sum_of_nums
+Checking if 250 is adjacent
+Adding 250 to sum_of_nums
+Checking if 289 is adjacent
+Adding 289 to sum_of_nums
+Checking if 33 is adjacent
+Adding 33 to sum_of_nums
+Checking if 667 is adjacent
+Adding 667 to sum_of_nums
+Checking if 793 is adjacent
+Adding 793 to sum_of_nums
+Checking if 521 is adjacent
+Adding 521 to sum_of_nums
+Checking if 81 is adjacent
+Adding 81 to sum_of_nums
+Checking if 996 is adjacent
+Adding 996 to sum_of_nums
+Checking if 713 is adjacent
+Adding 713 to sum_of_nums
+Checking if 92 is adjacent
+Adding 92 to sum_of_nums
+Checking if 708 is adjacent
+Adding 708 to sum_of_nums
+Checking if 799 is adjacent
+Adding 799 to sum_of_nums
+Checking if 736 is adjacent
+Adding 736 to sum_of_nums
+Checking if 369 is adjacent
+Adding 369 to sum_of_nums
+Checking if 779 is adjacent
+Adding 779 to sum_of_nums
+Checking if 439 is adjacent
+Adding 439 to sum_of_nums
+Checking if 484 is adjacent
+Adding 484 to sum_of_nums
+Checking if 655 is adjacent
+Checking if 555 is adjacent
+Adding 555 to sum_of_nums
+Checking if 471 is adjacent
+Adding 471 to sum_of_nums
+Checking if 707 is adjacent
+Adding 707 to sum_of_nums
+Checking if 441 is adjacent
+Adding 441 to sum_of_nums
+Checking if 882 is adjacent
+Adding 882 to sum_of_nums
+Checking if 797 is adjacent
+Adding 797 to sum_of_nums
+Checking if 374 is adjacent
+Adding 374 to sum_of_nums
+Checking if 196 is adjacent
+Adding 196 to sum_of_nums
+Checking if 284 is adjacent
+Adding 284 to sum_of_nums
+Checking if 297 is adjacent
+Adding 297 to sum_of_nums
+Checking if 378 is adjacent
+Adding 378 to sum_of_nums
+Checking if 660 is adjacent
+Adding 660 to sum_of_nums
+Checking if 694 is adjacent
+Adding 694 to sum_of_nums
+Checking if 709 is adjacent
+Adding 709 to sum_of_nums
+Checking if 499 is adjacent
+Adding 499 to sum_of_nums
+Checking if 300 is adjacent
+Adding 300 to sum_of_nums
+Checking if 931 is adjacent
+Adding 931 to sum_of_nums
+Checking if 752 is adjacent
+Adding 752 to sum_of_nums
+Checking if 986 is adjacent
+Checking if 805 is adjacent
+Adding 805 to sum_of_nums
+Checking if 52 is adjacent
+Checking if 783 is adjacent
+Checking if 887 is adjacent
+Adding 887 to sum_of_nums
+Checking if 127 is adjacent
+Adding 127 to sum_of_nums
+Checking if 221 is adjacent
+Adding 221 to sum_of_nums
+Checking if 105 is adjacent
+Adding 105 to sum_of_nums
+Checking if 141 is adjacent
+Adding 141 to sum_of_nums
+Checking if 186 is adjacent
+Adding 186 to sum_of_nums
+Checking if 134 is adjacent
+Adding 134 to sum_of_nums
+Checking if 408 is adjacent
+Adding 408 to sum_of_nums
+Checking if 230 is adjacent
+Adding 230 to sum_of_nums
+Checking if 709 is adjacent
+Adding 709 to sum_of_nums
+Checking if 767 is adjacent
+Adding 767 to sum_of_nums
+Checking if 446 is adjacent
+Adding 446 to sum_of_nums
+Checking if 413 is adjacent
+Adding 413 to sum_of_nums
+Checking if 619 is adjacent
+Adding 619 to sum_of_nums
+Checking if 444 is adjacent
+Checking if 903 is adjacent
+Adding 903 to sum_of_nums
+Checking if 594 is adjacent
+Adding 594 to sum_of_nums
+Checking if 446 is adjacent
+Adding 446 to sum_of_nums
+Checking if 151 is adjacent
+Adding 151 to sum_of_nums
+Checking if 108 is adjacent
+Adding 108 to sum_of_nums
+Checking if 876 is adjacent
+Adding 876 to sum_of_nums
+Checking if 204 is adjacent
+Adding 204 to sum_of_nums
+Checking if 490 is adjacent
+Adding 490 to sum_of_nums
+Checking if 285 is adjacent
+Adding 285 to sum_of_nums
+Checking if 74 is adjacent
+Adding 74 to sum_of_nums
+Checking if 898 is adjacent
+Adding 898 to sum_of_nums
+Checking if 373 is adjacent
+Adding 373 to sum_of_nums
+Checking if 243 is adjacent
+Adding 243 to sum_of_nums
+Checking if 269 is adjacent
+Adding 269 to sum_of_nums
+Checking if 616 is adjacent
+Adding 616 to sum_of_nums
+Checking if 242 is adjacent
+Adding 242 to sum_of_nums
+Checking if 682 is adjacent
+Adding 682 to sum_of_nums
+Checking if 923 is adjacent
+Adding 923 to sum_of_nums
+Checking if 582 is adjacent
+Adding 582 to sum_of_nums
+Checking if 508 is adjacent
+Adding 508 to sum_of_nums
+Checking if 486 is adjacent
+Checking if 807 is adjacent
+Adding 807 to sum_of_nums
+Checking if 429 is adjacent
+Checking if 28 is adjacent
+Adding 28 to sum_of_nums
+Checking if 416 is adjacent
+Adding 416 to sum_of_nums
+Checking if 851 is adjacent
+Adding 851 to sum_of_nums
+Checking if 968 is adjacent
+Adding 968 to sum_of_nums
+Checking if 29 is adjacent
+Adding 29 to sum_of_nums
+Checking if 327 is adjacent
+Adding 327 to sum_of_nums
+Checking if 782 is adjacent
+Adding 782 to sum_of_nums
+Checking if 706 is adjacent
+Adding 706 to sum_of_nums
+Checking if 529 is adjacent
+Adding 529 to sum_of_nums
+Checking if 269 is adjacent
+Adding 269 to sum_of_nums
+Checking if 379 is adjacent
+Adding 379 to sum_of_nums
+Checking if 939 is adjacent
+Adding 939 to sum_of_nums
+Checking if 902 is adjacent
+Adding 902 to sum_of_nums
+Checking if 243 is adjacent
+Adding 243 to sum_of_nums
+Checking if 703 is adjacent
+Adding 703 to sum_of_nums
+Checking if 796 is adjacent
+Checking if 890 is adjacent
+Adding 890 to sum_of_nums
+Checking if 136 is adjacent
+Adding 136 to sum_of_nums
+Checking if 944 is adjacent
+Adding 944 to sum_of_nums
+Checking if 52 is adjacent
+Adding 52 to sum_of_nums
+Checking if 451 is adjacent
+Adding 451 to sum_of_nums
+Checking if 40 is adjacent
+Adding 40 to sum_of_nums
+Checking if 123 is adjacent
+Checking if 222 is adjacent
+Adding 222 to sum_of_nums
+Checking if 52 is adjacent
+Adding 52 to sum_of_nums
+Checking if 408 is adjacent
+Adding 408 to sum_of_nums
+Checking if 995 is adjacent
+Adding 995 to sum_of_nums
+Checking if 149 is adjacent
+Adding 149 to sum_of_nums
+Checking if 708 is adjacent
+Adding 708 to sum_of_nums
+Checking if 722 is adjacent
+Adding 722 to sum_of_nums
+Checking if 770 is adjacent
+Adding 770 to sum_of_nums
+Checking if 492 is adjacent
+Adding 492 to sum_of_nums
+Checking if 714 is adjacent
+Adding 714 to sum_of_nums
+Checking if 99 is adjacent
+Adding 99 to sum_of_nums
+Checking if 759 is adjacent
+Adding 759 to sum_of_nums
+Checking if 138 is adjacent
+Adding 138 to sum_of_nums
+Checking if 517 is adjacent
+Adding 517 to sum_of_nums
+Checking if 874 is adjacent
+Adding 874 to sum_of_nums
+Checking if 54 is adjacent
+Adding 54 to sum_of_nums
+Checking if 61 is adjacent
+Adding 61 to sum_of_nums
+Checking if 129 is adjacent
+Adding 129 to sum_of_nums
+Checking if 517 is adjacent
+Adding 517 to sum_of_nums
+Checking if 264 is adjacent
+Adding 264 to sum_of_nums
+Checking if 130 is adjacent
+Adding 130 to sum_of_nums
+Checking if 16 is adjacent
+Adding 16 to sum_of_nums
+Checking if 769 is adjacent
+Adding 769 to sum_of_nums
+Checking if 176 is adjacent
+Adding 176 to sum_of_nums
+Checking if 663 is adjacent
+Adding 663 to sum_of_nums
+Checking if 198 is adjacent
+Adding 198 to sum_of_nums
+Checking if 44 is adjacent
+Adding 44 to sum_of_nums
+Checking if 102 is adjacent
+Adding 102 to sum_of_nums
+Checking if 983 is adjacent
+Adding 983 to sum_of_nums
+Checking if 753 is adjacent
+Adding 753 to sum_of_nums
+Checking if 486 is adjacent
+Adding 486 to sum_of_nums
+Checking if 874 is adjacent
+Adding 874 to sum_of_nums
+Checking if 796 is adjacent
+Adding 796 to sum_of_nums
+Checking if 941 is adjacent
+Adding 941 to sum_of_nums
+Checking if 973 is adjacent
+Checking if 74 is adjacent
+Checking if 895 is adjacent
+Adding 895 to sum_of_nums
+Checking if 235 is adjacent
+Adding 235 to sum_of_nums
+Checking if 282 is adjacent
+Checking if 243 is adjacent
+Checking if 337 is adjacent
+Adding 337 to sum_of_nums
+Checking if 69 is adjacent
+Adding 69 to sum_of_nums
+Checking if 704 is adjacent
+Checking if 283 is adjacent
+Adding 283 to sum_of_nums
+Checking if 328 is adjacent
+Adding 328 to sum_of_nums
+Checking if 218 is adjacent
+Checking if 744 is adjacent
+Checking if 82 is adjacent
+Adding 82 to sum_of_nums
+Checking if 252 is adjacent
+Adding 252 to sum_of_nums
+Checking if 984 is adjacent
+Adding 984 to sum_of_nums
+Checking if 799 is adjacent
+Adding 799 to sum_of_nums
+Checking if 210 is adjacent
+Adding 210 to sum_of_nums
+Checking if 153 is adjacent
+Adding 153 to sum_of_nums
+Checking if 699 is adjacent
+Adding 699 to sum_of_nums
+Checking if 29 is adjacent
+Adding 29 to sum_of_nums
+Checking if 99 is adjacent
+Adding 99 to sum_of_nums
+Checking if 648 is adjacent
+Adding 648 to sum_of_nums
+Checking if 687 is adjacent
+Adding 687 to sum_of_nums
+Checking if 320 is adjacent
+Adding 320 to sum_of_nums
+Checking if 518 is adjacent
+Adding 518 to sum_of_nums
+Checking if 2 is adjacent
+Adding 2 to sum_of_nums
+Checking if 19 is adjacent
+Checking if 356 is adjacent
+Adding 356 to sum_of_nums
+Checking if 313 is adjacent
+Adding 313 to sum_of_nums
+Checking if 994 is adjacent
+Adding 994 to sum_of_nums
+Checking if 467 is adjacent
+Checking if 984 is adjacent
+Adding 984 to sum_of_nums
+Checking if 40 is adjacent
+Adding 40 to sum_of_nums
+Checking if 473 is adjacent
+Adding 473 to sum_of_nums
+Checking if 789 is adjacent
+Adding 789 to sum_of_nums
+Checking if 902 is adjacent
+Adding 902 to sum_of_nums
+Checking if 987 is adjacent
+Adding 987 to sum_of_nums
+Checking if 179 is adjacent
+Adding 179 to sum_of_nums
+Checking if 382 is adjacent
+Adding 382 to sum_of_nums
+Checking if 519 is adjacent
+Adding 519 to sum_of_nums
+Checking if 11 is adjacent
+Adding 11 to sum_of_nums
+Checking if 926 is adjacent
+Adding 926 to sum_of_nums
+Checking if 153 is adjacent
+Adding 153 to sum_of_nums
+Checking if 725 is adjacent
+Adding 725 to sum_of_nums
+Checking if 358 is adjacent
+Adding 358 to sum_of_nums
+Checking if 527 is adjacent
+Adding 527 to sum_of_nums
+Checking if 345 is adjacent
+Adding 345 to sum_of_nums
+Checking if 746 is adjacent
+Adding 746 to sum_of_nums
+Checking if 978 is adjacent
+Adding 978 to sum_of_nums
+Checking if 607 is adjacent
+Adding 607 to sum_of_nums
+Checking if 798 is adjacent
+Adding 798 to sum_of_nums
+Checking if 899 is adjacent
+Adding 899 to sum_of_nums
+Checking if 86 is adjacent
+Adding 86 to sum_of_nums
+Checking if 478 is adjacent
+Adding 478 to sum_of_nums
+Checking if 888 is adjacent
+Adding 888 to sum_of_nums
+Checking if 949 is adjacent
+Adding 949 to sum_of_nums
+Checking if 767 is adjacent
+Adding 767 to sum_of_nums
+Checking if 807 is adjacent
+Adding 807 to sum_of_nums
+Checking if 743 is adjacent
+Adding 743 to sum_of_nums
+Checking if 715 is adjacent
+Adding 715 to sum_of_nums
+Checking if 723 is adjacent
+Checking if 56 is adjacent
+Adding 56 to sum_of_nums
+Checking if 81 is adjacent
+Checking if 345 is adjacent
+Adding 345 to sum_of_nums
+Checking if 802 is adjacent
+Adding 802 to sum_of_nums
+Checking if 776 is adjacent
+Adding 776 to sum_of_nums
+Checking if 26 is adjacent
+Adding 26 to sum_of_nums
+Checking if 743 is adjacent
+Adding 743 to sum_of_nums
+Checking if 943 is adjacent
+Adding 943 to sum_of_nums
+Checking if 971 is adjacent
+Adding 971 to sum_of_nums
+Checking if 527 is adjacent
+Checking if 782 is adjacent
+Checking if 665 is adjacent
+Checking if 532 is adjacent
+Checking if 998 is adjacent
+Checking if 991 is adjacent
+Adding 991 to sum_of_nums
+Checking if 702 is adjacent
+Adding 702 to sum_of_nums
+Checking if 542 is adjacent
+Adding 542 to sum_of_nums
+Checking if 406 is adjacent
+Checking if 779 is adjacent
+Adding 779 to sum_of_nums
+528369
