@@ -1,0 +1,36 @@
+1. Read input file into list
+2. Modify list by creating row with all dots at top and bottom
+3. Further modify list by adding a dot as the first and last character of each row
+4. Initialize numbers dictionary to empty
+4. Initialize sum to zero
+5. Process each line:
+    when a digit is found a number is started
+    while next character is a digit
+        append digit to number string
+    after end of number
+        convert num string to integer
+        for each [row,col] in number string
+            add (row,col) to dictionary with integer num value
+        intialize num back to empty string
+6. Process each line
+7.   when a * is found
+       initialize numbers to empty list
+       check row on top for number
+       check row on bottom for number
+       check left position for number
+       check right position for number
+       if numbers list equals two then multiply them and add the product to the sum
+8. Return sum
+
+
+Symbol adjacent function
+1. if [row-1,col-1] is not a dot or a number return true
+2. if [row-1,col] is not a dot or a number return true
+3. if [row-1,col+1] is not a dot or a number return true
+4. if [row,col-1] is not a dot or a number return true
+5. if [row,col+1] is not a dot or a number return true
+6. if [row+1,col-1] is not a dot or a number return true
+7. if [row+1,col] is not a dot or a number return true
+8. if [row+1,col+1] is not a dot or a number return true
+9. return false
+
