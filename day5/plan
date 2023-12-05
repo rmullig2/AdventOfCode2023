@@ -1,0 +1,7 @@
+1. Read input file
+2. Process input file into seeds and maps
+3. Create dictionaries from maps
+4. For each seed
+    Call transform_location(value, map) to get new location
+    Add to final locations
+5. Return minimum final locations
