@@ -13,4 +13,5 @@ class SeedsTransform(unittest.TestCase):
     def test_seeds_map(self):
         self.assertEqual(seeds_map(([52, 58], [90, 95]), (['10 50 10'])), ([[12, 18], [90, 95]]))
         self.assertEqual(seeds_map(([52, 58], [40, 45]), (['10 50 10'])), ([[12, 18], [40, 45]]))
-        #self.assertEqual(seeds_map(([62, 68], [45, 55]), (['10 50 20'])), ([[22, 28], [45, 49], [10, 15]]))
+        self.assertEqual(seeds_map(([62, 68], [45, 55]), (['10 50 20'])), ([[22, 28], [10, 15], [45, 49]]))
+        self.assertEqual(seeds_map(([62, 68], [65, 75]), (['10 50 20'])), ([[22, 28], [25, 29], [70, 75]]))

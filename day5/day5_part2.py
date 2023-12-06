@@ -53,24 +53,35 @@ def seeds_map(seeds, transform_list):
         destination = int(coords[0])
         start = int(coords[1])
         end = int(start + int(coords[2]))
-        transform_ints.append([destination, start, end])
+        transform_ints.append([start, end, destination])
     for seed in seeds:
         for transform in transform_ints:
-            if seed[1] <= transform[1] or seed[0] >= transform[2]:
+            seed_start, seed_end, transform_start, transform_end, destination = seed[0], seed[1], transform[0], transform[1], transform[2]
+            # Seed range is completely outside of transform range
+            if seed_end <= transform_start or seed_start >= transform_end:
                 continue
-            elif seed[0] >= transform[1] and seed[1] <= transform[2]:
-                new_location = [seed[0]-transform[1]+transform[0], seed[1]-transform[1]+transform[0]]
+            # Seed range is completely inside of transform range
+            elif seed_start >= transform_start and seed_end <= transform_end:
+                new_location = [seed_start-transform_start+destination, seed_end-transform_start+destination]
                 new_locations.append(new_location)
                 seed = [-inf, -inf]
-            elif seed[0] < transform[1] and seed[1] <= transform[2]:
-                # truncate seed list to end at the start of the transform
-                # store length of seed
-                seed_length = seed[1] - seed[0]
+            # Seed range begins before transform range but does not extend past the end of the transform range
+            elif seed_start < transform_start and seed_end <= transform_end:
                 # get length of first and second sets
-                first = transform[1] - seed[0]
-                second = seed_length - first
-                seed = [seed[1], seed[1]+first-1]
-                new_locations.append([transform[0], transform[0]+second-1])
+                first = transform_start - seed_start
+                second = seed_end - transform_start
+                seed = [seed_start, seed_start+first-1]
+                new_locations.append([destination, destination+second])
+            # Seed range begins inside transform range and extends past the end of the transform range
+            elif seed_start >= transform_start and seed_end > transform_end:
+                # get length of first and second sets
+                #print(f'transform_start: {transform_start}, transform_end: {transform_end}')
+                #print(f'seed_tart: {seed_start}, seed_end: {seed_end}')
+                first = seed_start - transform_start
+                second = seed_end - transform_end
+                #print(f'first: {first}, second: {second}')
+                new_locations.append([destination+first, destination+(transform_end - transform_start - 1)])
+                seed = [transform_end, transform_end+second]
         if seed != [-inf, -inf]:
             new_locations.append([seed[0], seed[1]])
     return new_locations
@@ -102,5 +113,5 @@ if __name__ == '__main__':
     temperature_to_humidity = seeds_map(light_to_temperature ,temperature_to_humidity_list)
     humidity_to_location = seeds_map(temperature_to_humidity, humidity_to_location_list)
 
-    print(min(humidity_to_location))
+    print(min(humidity_to_location)[0])
 
