@@ -1,0 +1,13 @@
+1. Create function to read in the input file
+2. Create function to save each line as an entry in bid dictionary
+3. Create function to save each hand as an entry in the hands list
+4. Modify function to sort hands into strength lists (5 kind, 4 kind, full house, 3 kind, 2 pair, 1 pair, HC) to account for J wildcard
+5. Modify sorting function to make Jack the weakest card - see below
+6. Create function to order hands from all strength lists into one list with modified alphabet
+7. Create function to multiply each hand by its bid and sum up total
+
+>>> alphabet = "J23456789TQKA"
+>>> mylist = ['KK677', 'KTJJT', 'KA343']
+>>> sorted(mylist, key=lambda word: [alphabet.index(c) for c in word])
+['KA343', 'KK677', 'KTJJT']
+
