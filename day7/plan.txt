@@ -1,0 +1,13 @@
+1. Create function to read in the input file
+2. Create function to save each line as an entry in bid dictionary
+3. Create function to save each hand as an entry in the hands list
+4. Create sorting function - see below
+5. Create function to sort hands into strength lists (5 kind, 4 kind, full house, 3 kind, 2 pair, 1 pair, HC)
+6. Create function to order hands from all strength lists into one list
+7. Create function to multiply each hand by its bid and sum up total
+
+>>> alphabet = "AKQJT98765432"
+>>> mylist = ['KK677', 'KTJJT', 'KA343']
+>>> sorted(mylist, key=lambda word: [alphabet.index(c) for c in word])
+['KA343', 'KK677', 'KTJJT']
+
