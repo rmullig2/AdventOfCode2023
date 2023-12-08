@@ -1,0 +1,9 @@
+1. Read input into file
+2. Get instructions from line 1 of input file
+3. Get map from input file starting at line 3 and store in dictionary with first field as key and tuple as value.
+4. Initialize steps to zero
+5. Initialize location to 'AAA'
+6. While True set location to instructions[counter % len(input(location))
+7. increment counter
+8. if location == ZZZ increment counter
+ 
