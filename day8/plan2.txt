@@ -2,8 +2,8 @@
 2. Get instructions from line 1 of input file
 3. Get map from input file starting at line 3 and store in dictionary with first field as key and tuple as value.
 4. Initialize steps to zero
-5. Initialize location to 'AAA'
+5. Initialize locations to all nodes that end in 'A'
 6. While True set location to instructions[counter % len(input(location))
 7. increment counter
-8. if location == ZZZ return counter
+8. if every new location ends in 'Z' return counter
  
