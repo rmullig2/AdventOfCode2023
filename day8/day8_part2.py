@@ -1,5 +1,6 @@
 import sys
 import re
+from functools import reduce
 
 def get_input(filename):
     with open(filename) as f:
@@ -16,45 +17,59 @@ def get_nodes(input_list):
         nodes[items[0]] = (items[1], items[2])
     return nodes
 
-def get_start_nodes(nodes):
-    end_nodes = []
+def get_locations(nodes):
+    locations = []
     for node in nodes:
         if node[2] == 'A':
-            end_nodes.append(node)
-    return end_nodes
+            locations.append(node)
+    return locations
 
-def check_finish(nodes):
-    finished = True
-    for node in nodes:
-        if node[2] != 'Z':
-            return False
-    return True
-
-def get_steps(instructions, nodes):
+def get_steps(instructions, nodes, location):
     steps = 0
-    locations = get_start_nodes(list(nodes.keys()))
     while True:
         instruction = instructions[steps % len(instructions)]
         if instruction == 'L':
-            for i in range(len(locations)):
-                new_location = nodes[locations[i]][0]
-                locations[i] = new_location
+            location = nodes[location][0]
         else:
-            for i in range(len(locations)):
-                new_location = nodes[locations[i]][1]
-                locations[i] = new_location
+            location = nodes[location][1]
         steps += 1
-        if check_finish(locations):
+        if location[2] == 'Z':
             return steps
-        if not (steps % 1000000):
-            print(f'steps: {steps}')
-            print(f'locations: {locations}')
+
+def get_factors(num):
+    factors = []
+    for i in range(2, num):
+        if num % i == 0:
+            factors.append(i)
+    return factors
+
+def get_common_factor(factor_sets):
+    common_factor = set(factor_sets[0])
+    for i in range(1, len(factor_sets)):
+        common_factor = common_factor & set(factor_sets[i])
+    return int(list(common_factor)[0])
+
+def get_total_steps(common_factor, factor_sets):
+    for factor_set in factor_sets:
+        factor_set.remove(common_factor)
+    total_steps = common_factor
+    for factor_set in factor_sets:
+        total_steps *= factor_set.pop()
+    return total_steps
 
 if __name__ == '__main__':
     if len(sys.argv) < 2:
-        print("Usage: day8_part2.py input_filename")
+        print("Usage: day8_part1.py input_filename")
         exit(1)
     input_list = get_input(sys.argv[1])
     instructions = get_instructions(input_list)
     nodes = get_nodes(input_list)
-    print(get_steps(instructions, nodes))
+    locations = get_locations(nodes)
+    steps = []
+    for location in locations:
+        steps.append(get_steps(instructions, nodes, location))
+    factor_sets = []
+    for step in steps:
+        factor_sets.append(get_factors(step))
+    common_factor = get_common_factor(factor_sets)
+    print(get_total_steps(common_factor, factor_sets))

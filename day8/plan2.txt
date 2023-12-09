@@ -3,7 +3,8 @@
 3. Get map from input file starting at line 3 and store in dictionary with first field as key and tuple as value.
 4. Initialize steps to zero
 5. Initialize locations to all nodes that end in 'A'
-6. While True set location to instructions[counter % len(input(location))
-7. increment counter
-8. if every new location ends in 'Z' return counter
+6. Create function to get number of steps to reach a node that ends in 'Z' instead of 'ZZZ'
+7. Run that function for each starting location
+8. Run through greatest common factor to see
+8. Sort list containing number of steps from smallest to largest
  
