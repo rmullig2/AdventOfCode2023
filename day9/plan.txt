@@ -1,0 +1,26 @@
+1. Create function to read input into file
+2. Iterate over each line of input
+3. Create function to convert input string into integer list
+4. Read line and convert into list of strings
+5. Convert into list of integers - list(map(int, str_list))
+6. Return integer list
+7. Create function to get next value of list passing the list as a parameter
+6. Initialize list_of_lists as empty list
+7. Append integer list into list_of_lists
+8. Set current list to list_of_lists[0]
+9. while current list is not all zeros - while not all([ value == 0 for value in current_list ])
+10. next_list = []
+11. for i in range(len(current_list)-1):
+12.     next_list.append(current_list[i+1] - current_list[i])
+13. list_of_lists.append(next_list)
+14. list_of_lists[-1].append(0)
+14. current_list = list_of_lists.pop()
+16. previous_list = list_of_lists.pop()
+17. while len(list_of_lists) > 1:
+18.     previous_list.append(current_list[-1]+previous_list[-1])
+19.     current_list = previous_list
+20.     previous_list = list_of_lists.pop()
+21. return previous_list[-1]
+22. Create function to iterate over all input lines and pass each one to the previous function while computing the sum of the functions
+23. Return this sum
+
