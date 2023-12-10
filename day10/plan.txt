@@ -1,0 +1,23 @@
+1. Read input file into list
+2. Convert input file into list of lists (grid) containing string values
+3. Define rules as dictionary with the symbol as key and rules as values following:
+  | is a vertical pipe connecting north and south.
+  - is a horizontal pipe connecting east and west.
+  L is a 90-degree bend connecting north and east.
+  J is a 90-degree bend connecting north and west.
+  7 is a 90-degree bend connecting south and west.
+  F is a 90-degree bend connecting south and east.
+  . is ground; there is no pipe in this tile.
+  S is the starting position of the animal; there is a pipe on this tile, but your sketch doesn't show what shape the pipe has.
+4. Locate S in the grid
+5. Create function to find the path length from a coordinate
+    It should take the coordinate, num of coordinates visited, and visited coordinate dictionary as parameters
+    Add the coordinate to the visited dictionary with visited count as the value and increment the num of
+    coordinates visited count
+    Find next steps for the coordinate and check if they are already visited (dict.get(coordinate_key))
+    If coordinate has been visited update the value if num visited + 1 < current value
+    If coordinate has not been visited or value > num visited + 1 add to unvisited list
+    For each coordinate in unvisited list recursively call the function with the new coordinate and updated values
+    Return the visited dictionary
+6. Call the function passing S as the coordinate, 0 for num visited, and empty for visited dictionary
+7. Print the largest value from the visited dictionary -- max(d.values())
