@@ -1,6 +1,25 @@
-1. Read input file into list
-2. Convert input file into list of lists (grid) containing string values
-3. Define rules as dictionary with the symbol as key and rules as values following:
+Main function
+-------------
+1. Call function to read input file into list
+2. Call function to initialize grid (pass in input list)
+3/ Call function to create moves grid (pas in inital grid)
+3. Call function to initialize values grid (pass in moves grid)
+4. Call function to compute steps (pass in moves and values grids)
+5. Call function to compute farthest point and print (pass in values grid)
+
+Initial grid
+---------------------
+1. Compute grid row and column length for first value
+2. Initialize move grid with list of [.] equal to the row length plus two
+3. Iterate entry for grid entries
+4.   Add new row with additional '.' at start and end
+6. Complete initial grid with list of [.] equal to the row length line plus two
+7. Return initial grid
+DONE
+
+Compute moves grid 
+------------------
+1. Move rules are as follows
   | is a vertical pipe connecting north and south.
   - is a horizontal pipe connecting east and west.
   L is a 90-degree bend connecting north and east.
@@ -8,16 +27,76 @@
   7 is a 90-degree bend connecting south and west.
   F is a 90-degree bend connecting south and east.
   . is ground; there is no pipe in this tile.
-  S is the starting position of the animal; there is a pipe on this tile, but your sketch doesn't show what shape the pipe has.
-4. Locate S in the grid
-5. Create function to find the path length from a coordinate
-    It should take the coordinate, num of coordinates visited, and visited coordinate dictionary as parameters
-    Add the coordinate to the visited dictionary with visited count as the value and increment the num of
-    coordinates visited count
-    Find next steps for the coordinate and check if they are already visited (dict.get(coordinate_key))
-    If coordinate has been visited update the value if num visited + 1 < current value
-    If coordinate has not been visited or value > num visited + 1 add to unvisited list
-    For each coordinate in unvisited list recursively call the function with the new coordinate and updated values
-    Return the visited dictionary
-6. Call the function passing S as the coordinate, 0 for num visited, and empty for visited dictionary
-7. Print the largest value from the visited dictionary -- max(d.values())
+  S is the starting position of the animal
+2. Define next_move as empty dictionary
+3. Define move grid as list of empty lists equal to length of initial_grid
+4. Iterate over rows and columns of initial grid
+     Append the value for the initial grid key from the next_move dictionary to the move grid
+5. Return the move grid
+DONE
+
+Initialize values grid
+----------------------
+1. Compute row and column length from moves grid
+2. Initialize values grid to []
+3. For i in range(column length)
+4. values grid append [inf] * row length
+5. Return values grid
+DONE
+
+Compute steps
+-------------
+1. Call helper to locate S in the grid and get initial moves passing in initial grid
+2. Initialize moves list with tuples containing each initial move and 1 for the value
+3. While moves list     # not empty
+4.   Current move = moves list pop
+5.   current location = [current move[0], current move[1]]
+6.   Call helper function to get adjacent moves for current location passing in current location, moves grid
+7.   If current value < values grid[current location]
+8.     values grid[current location] = current value
+9.     call helper to get moves for current location and append tuples for each one with current value + 1
+10. No need to return value since values grid passed by reference
+DONE
+
+Get initial moves
+-----------------
+1. Set initial moves to empty list
+2. If south in values grid[row-1, col]
+3.   append values grid[row-1, col] to initial moves
+4. If north in values grid[row+1, col]
+5.   append values grid[row+1, col] to initial moves
+6. If west in values grid[row, col+1]
+7.   append values grid[row, col+1] to initial moves
+8. If east in values grid[row, col-1]
+9.   append values grid[row, col-1] to initial moves
+10. return initial moves
+DONE
+
+Get adjacent moves
+------------------
+1. Set adjacent moves to empty list
+2. Moves = moves grid[current location]
+3. For move in moves
+4. if move == north append [row-1, col] to adjacent moves
+5. if move == south append [row+1, col] to adjacent moves
+6. if move == east append [row, col+1] to adjacent moves
+7. if move == west append [row, col-1] to adjacent moves
+8. Return adjacent moves
+DONE
+
+Get S location
+--------------
+1. Iterate over rows and columns of initial grid
+2. If data == 'S' return row and column
+3. Otherwise return None
+DONE
+
+Compute farthest point
+----------------------
+1. Compute rows and cols lengths from values grid2
+2. Set values to empty list
+3. Iterate row over 1, rows-1
+4.   Iterate col over 1, cols-1
+5.     if values grid[row,col] != inf apend to values
+6. Return max(values)
+DONE
