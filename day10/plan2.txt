@@ -1,0 +1,147 @@
+Main function
+-------------
+1. Call function to read input file passing in name of file and storing return in lines  DONE
+2. Call function to create grid passing in lines and storing return in grid  DONE
+3. Call function to create move grid passing in grid and storing result in move_grid  DONE
+4. Call function to create loop list passing in grid and move_grid, storing result in loop  DONE
+5. Call function to mark pipe nodes passing in grid, loop, and move_grid, return None DONE
+6. Call function to mark outside nodes passing in pipe_nodes, grid, and loop, return None  DONE
+7. Call function to find inside nodes passing in grid and loop, store results in inside_nodes  DONE
+8. Print length of inside nodes
+
+Function to read input file  DONE
+---------------------------
+1. Use get_input(filename) unchanged
+
+Function to create grid  DONE
+-----------------------
+1. Use get_initial_grid(lines)
+2. Change name to create_grid(lines)
+3. Change '.' to 'O'
+
+Function to create move grid  DONE
+----------------------------
+1. Use get_move_grid(initial_grid)
+2. Change initial_grid to grid
+3. Add line to set next_move['O'] to ()
+
+Function to get the location of S  DONE
+---------------------------------
+1. Use get_s_location(initial_grid)
+2. Change initial_grid to grid
+
+Function to get S moves  DONE
+-----------------------
+1. Use get_initial_moves(s_location, move_grid)
+2. Change get_initial_moves to get_S_moves
+
+Function to get next moves  DONE
+--------------------------
+1. get_adjacent_moves(location, move_grid)
+2. Change get_adjacent_moves to get_next_moves
+
+Function to create loop list  DONE
+----------------------------
+1. Use get_loop_locations(initial_grid, move_grid)
+2. Change initial_grid to grid
+3. Change loop_locations to loop
+4. Change adjacent_moves to next_moves
+
+Function to determine if bottom pipe  DONE
+------------------------------------
+1. If location in loop and move_grid[location] in '-', 'L', 'J' return True
+2. Return False
+
+Function to determine if top pipe  DONE
+---------------------------------
+1. If location in loop and move_grid[location] in '-', '7', 'F' return True
+2. Return False
+
+Function to determine if left pipe  DONE
+----------------------------------
+1. If location in loop and move_grid[location] in '|', '7', 'J' return True
+2. Return False
+
+Function to determine if right pipe  DONE
+------------------------------------
+1. If location in loop and move_grid[location] in '-', 'L', 'F' return True
+2. Return False
+
+Function to find pipe nodes  DONE
+---------------------------
+1. Initialize pipe_nodes to empty list
+2. Set rows to len(grid)
+3. Set cols to len(grid[0])
+4. Iterate over rows from 1 to rows-1
+       col = 1
+       pipe = False
+       while bottom_pipe([row,col]) and top_pipe([row+1,col])   # bottom pipe = -, L, J, top pipe = -, 7, F
+           pipe = True
+           col += 1
+       if pipe:
+           pipe_nodes.append([row,col])
+           pipe_modes.append([row+1,col])
+       col = cols-1
+       pipe = False
+       while bottom_pipe([row,col]) and top_pipe([row+1,col])
+           pipe = True
+           col -= 1
+       if pipe:
+           pipe_nodes.append([row,col])
+           pipe_modes.append([row+1,col])
+4. Iterate over rows from 1 to rows-1
+       col = 1
+       pipe = False
+       while bottom_pipe([row,col]) and top_pipe([row+1,col])   # bottom pipe = -, L, J, top pipe = -, 7, F
+           pipe = True
+           col += 1
+       if pipe:
+           pipe_nodes.append([row,col])
+           pipe_modes.append([row+1,col])
+       col = cols-1
+       pipe = False
+       while bottom_pipe([row,col]) and top_pipe([row+1,col])
+           pipe = True
+           col -= 1
+       ip pipe:
+           pipe_nodes.append([row,col])
+           pipe_modes.append([row+1,col])
+5. Iterate over cols from 1 to cols-1
+       row = 1
+       pipe = False
+       while left_pipe([row,col]) and right_pipe([row,col+1])  # left_pipe = |, J, 7, right_pipe = |, L, F
+           pipe = True
+           row += 1
+       if pipe:
+           pipe_nodes.append([row,col])
+           pipe_nodes.append([row,col+1])
+       row = rows-1
+       pipe = False
+       while left_pipe([row,col-1] and right_pipe([row,col])
+           pipe = True
+           row += 1
+       if pipe:
+           pipe_nodes.append([row,col])
+           pipe_nodes.append([row,col-1])
+6. for node in pipe_nodes:
+      grid[node[0]][node[1]] = 'O'
+7. Return none
+
+Function to find outside nodes  DONE
+------------------------------
+1. change = True, rows = len(grid), cols = len(grid[0])
+2. While change
+3. change = False
+4. Iterate over grid rows and cols
+5. If location not in loop and adjacent to outside location
+6.     change = True
+7.     grid[location] = 'O'
+
+Function to find inside nodes  DONE
+-----------------------------
+1. Initialize inside nodes to empty list
+2. Iterate over grid rows and columns
+3. If location not == 'O' and location not in loop
+4.     Append location to inside nodes
+5. Return inside nodes
+
