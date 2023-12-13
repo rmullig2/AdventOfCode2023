@@ -1,0 +1,39 @@
+Main function
+-------------
+Call function to read input into list of lists of strings
+Call function on each list of strings to get its score
+Print sum of scores
+
+Read input function
+-------------------
+Read input file into lines
+Initialize patterns as empty set
+Initialize pattern as empty set
+Iterate line over lines
+	if line append to pattern
+	else append pattern to patterns and set pattern to empty set
+Append last pattern to patterns
+
+Get horizontal score
+--------------------
+Iterate from 0 to length of rows-1
+If row == row+1 return row+1
+Return None if you reach the end
+
+Get vertical score
+------------------
+Convert lines into list of lists
+Use np.transpose(list of lists) to get transposed list of lists
+Create new string list
+	initialize an empty list
+	Iterate over transposed list
+	add new string with ''.join(list)
+Call Get horizontal score on new string list and return value
+
+Get total
+---------
+Initialize total to 0
+Iterate over each pattern
+	total += (horizontal score * 100)
+        total += vertical score
+Print total
