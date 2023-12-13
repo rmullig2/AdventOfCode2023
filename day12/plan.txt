@@ -1,0 +1,14 @@
+Main function
+-------------
+Read input from filename
+Process input into list of lists
+Separate into springs and nums lists
+Create function to compute count of arrangements for springs and nums pair
+Iterate over that function to get the sum of counts
+
+Compute count function
+----------------------
+Pop first element of nums list into num
+Set start and end to 0 and length of springs-1
+Set current string to ''
+Scan from start until you reach a '.' and have at least one '?' or '#' or reach the end or number of '#' = num
