@@ -1,0 +1,55 @@
+Main function
+-------------
+Read input file into lines list and return  DONE
+Process input file into list of lists  DONE
+Insert additional rows and columns after blank rows and columns  DONE
+Get galaxy locations  DONE
+Compute distances between galaxy pairs  DONE
+
+
+Function to read input  DONE
+----------------------
+Read from given filename and return lines
+
+Function to process input  DONE
+-------------------------
+Create space as empty list
+Append each line to space as a list
+Return space
+
+Function to insert additional rows and columns
+----------------------------------------------
+Initialize add_rows and add_cols as empty lists
+Iterate space over rows
+    Iterate over columns
+        If columns all equal '.'
+            Append row number to add_rows
+Iterate over columns
+    Iterate over rows
+        If rows all equal '.'
+            Append column number to add_cols
+Initialize new space list
+Iterate space over rows
+    Add space row to new space list
+    If row number in add rows add row of '.' to new space list
+Iterate space over cols
+    If col number in add cols add row of '.' to new space list
+
+Function to get galaxy locations  DONE
+--------------------------------
+Initialize locations to empty list
+Iterate over space rows
+    Iterate over space cols
+        If row, col == '#'
+            add row, col to locations
+Return locations
+
+Function to compute distances between pairs  DONE
+-------------------------------------------
+Initialize total distance to zero
+While galaxy list
+Pop the first galaxy from the galaxy list and store as current
+Iterate over remaining galaxies
+    Compute distance between current galaxy and galaxy
+    Add distance to total distance
+Return total distance
