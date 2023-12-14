@@ -16,19 +16,47 @@ def get_spring_rows_and_broken_number(lines):
         broken_number.append(broken)
     return spring_rows, broken_number
 
-def get_areas(spring_row):
-    return [area for area in spring_row.split('.') if area]
+def get_possible_arrangements(spring_row, broken):
+    found_broken =  len(re.findall('#', spring_row))
+    total_broken = sum(broken)
+    unknown_broken = total_broken - found_broken
+    unknown_locations = []
+    for location in re.finditer('\?', spring_row):
+        unknown_locations.append(location.start())
+    possible_locations = list(combinations(unknown_locations, unknown_broken))
+    possible_strings = []
+    for location in possible_locations:
+        spring_row_list = list(spring_row)
+        for index in location:
+            spring_row_list[index] = '#'
+        for index in range(len(spring_row_list)):
+            if spring_row_list[index] == '?':
+                spring_row_list[index] = '.'
+        possible_strings.append(''.join(spring_row_list))
+    return possible_strings
 
-def get_arrangements(area, broken_number):
-    known_broken = len(re.findall('#', area))
-    p = len(area) - known_broken
-    r = broken_number - known_broken
-    return combinations(p, r)
+def get_valid_arrangements(possible_strings, broken):
+    valid_strings = []
+    for string in possible_strings:
+        split_string = string.split('.')
+        remove_empty = [s for s in split_string if s]
+        new_broken = [len(s) for s in remove_empty]
+        if new_broken == broken:
+            valid_strings.append(string)
+    return valid_strings
 
-def equal_areas_and_groups(spring_row, broken_number):
-    arrangements = 0
-    areas = get_areas(spring_row)
-    arrangements = 1
-    for i in range(len(areas)):
-        arrangements *= get_arrangements(areas[i], broken_number[i])
-    return arrangements
+def get_total_valid(spring_rows, broken_number):
+    valid = []
+    for i in range(len(spring_rows)):
+        possible_arrangements = get_possible_arrangements(spring_rows[i], broken_number[i])
+        valid += get_valid_arrangements(possible_arrangements, broken_number[i])
+    return valid
+
+if __name__ == '__main__':
+    if len(sys.argv) < 2:
+        print('Usage day12_part1.py input_filename')
+        exit(1)
+    lines = get_input(sys.argv[1])
+    spring_rows, broken_number = get_spring_rows_and_broken_number(lines)
+    total_valid = get_total_valid(spring_rows, broken_number)
+    print(len(total_valid))

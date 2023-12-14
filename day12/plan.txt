@@ -6,66 +6,42 @@ Separate into springs and nums lists
 Create function to compute count of arrangements for springs and nums pair
 Iterate over that function to get the sum of counts
 
-Algorithm to find all combinations
-----------------------------------
-Set num to zero
-Put first broken count into counter
-Set position to zero
-Start reading area from position
-    If you find a #
-        decrement counter by 1
-        if counter == 0
-            if next character is a '#' then invalid (break out of loop)
-            else if next character is a ? then change to .
-            put next broken count into counter
-    Else if you find a ?
-        decrement counter by 1
-        if counter == 0
-            put next broken count into counter
+Algorithm to find all possible combinations
+-------------------------------------------
+Compute found_damaged as len(re.findall('#', string))
+Compute total_unknown as sum(nums)
+Compute find_unknown as total_unknown - found_damaged
+Initialize unknown_locations as empty list
+Create list of unknown locations
+	for location in re.finditer('\?', string):
+		unknown_locations.append(location.start())
+Compute all possible combinations of damaged locations
+	possible_locations = list(combinations(unknown_locations, find_unknown))
+Initialize possible_strings as empty set
+Iterate over possible_locations
+	Convert string into list
+	For each index in possible_locations
+		Change ? to #
+	Convert list to string using ''.join(list)
+	Append string to possible_strings
+Return possible strings
 
-Compute count function
-----------------------
-Pop first element of nums list into num
-Set start and end to 0 and length of springs-1
-Set current string to ''
-Scan from start until you reach a '.' and have at least one '?' or '#' or reach the end or number of '#' = num
+Algorithm to find all valid combinations
+----------------------------------------
+Receive possible strings and broken
+Initialize valid strings to empty set
+for string in possible strings
+	split_string = string.split('.')
+        remove_empty = [string for string in split_string if string]
+        new_broken = [len(string) for string in remove_empty]
+        if new_broken == broken
+		append string to valid strings
+Return valid strings
 
-
-areas == groups
-areas < groups
-areas > groups
-
-Create list of groups
-Create fields dictionary that contains the starting point in the string as the key and the field characters for the value
-Field is a string of characters that does not include '.'
-Search field for all strings of #s
-
-
-1. len(fields) == len(groups)
-	while fields
-		pop fields[0] into current field
-		pop groups[0] into current group
-		call function to get number of combinations
-2. fields < groups
-	must have multiple groups in field
-
-		else if it can fit into the field then find all combinations of string for that group in that field, go to next field
-		if number of remaining groups == number of remaining fields then go to the next group
-		else if it cannot fit into field then go to the next group
-			else find all combinations of string for that group in that field
-3. fields > groups
-	### one or more fields must be all .'s
-	pop fields[0] into current field
-	pop groups[0] into current group
-	while fields > groups
-		if len(current group) > len(current field)
-			pop fields[0] into current field
-			continue
-		if the field contains an '#' then the group must go into this field only
-			find all combinations of the group that fit this field
-			pop fields[0] into current field
-			pop groups[0] into current group
-		else
-			### field fits into group and does not contain a '#'
-			find all combinations of the group that fit this field
-			pop groups[0] into current group
+Get total valid arrangements
+----------------------------
+Initialize total to zero
+For each spring row, broken pair
+	Get possible combinations and save to possible
+	Get valid combinations and save to valid
+Return valid combinations
