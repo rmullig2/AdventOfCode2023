@@ -14,9 +14,9 @@ Set current string to ''
 Scan from start until you reach a '.' and have at least one '?' or '#' or reach the end or number of '#' = num
 
 
-fields == groups
-fields < groups
-fields > groups
+areas == groups
+areas < groups
+areas > groups
 
 Create list of groups
 Create fields dictionary that contains the starting point in the string as the key and the field characters for the value
