@@ -6,6 +6,23 @@ Separate into springs and nums lists
 Create function to compute count of arrangements for springs and nums pair
 Iterate over that function to get the sum of counts
 
+Algorithm to find all combinations
+----------------------------------
+Set num to zero
+Put first broken count into counter
+Set position to zero
+Start reading area from position
+    If you find a #
+        decrement counter by 1
+        if counter == 0
+            if next character is a '#' then invalid (break out of loop)
+            else if next character is a ? then change to .
+            put next broken count into counter
+    Else if you find a ?
+        decrement counter by 1
+        if counter == 0
+            put next broken count into counter
+
 Compute count function
 ----------------------
 Pop first element of nums list into num
