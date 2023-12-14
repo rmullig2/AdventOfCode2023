@@ -1,0 +1,14 @@
+Function to unfold records
+--------------------------
+Receives passed and indicator which may be "spring row" or "broken number"
+Initialize new string to passed string
+Iterate over range of 4
+	If indicator is "spring row"
+		new string += "?" + string
+Return new string
+
+Change to get_spring_rows_and_broken_number
+-------------------------------------------
+Before appending to spring_rows or broken_number call unfold records function
+
+
