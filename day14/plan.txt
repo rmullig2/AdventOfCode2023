@@ -1,0 +1,43 @@
+Main function
+-------------
+Call function to read input  DONE
+Call function to transpose and tilt the array  DONE
+Call function to get the total load  DONE
+
+Get input function  DONE
+------------------
+Read file into list of lists of strings
+Add line of .'s to the bottom of the list
+Create an np.array from the list and return it
+
+Sort substring  DONE
+--------------
+Receive string as parameter
+l = list(string)
+list.sort()
+return "".join(l)
+
+Transpose and tilt  DONE
+------------------
+Call np.transpose(array)
+Initialize empty lists for working string and final list
+Read each row of the array into a list of strings and append to working list
+Iterate over each string in the new list
+    Run [index.start(0) for index in re.finditer('#', s)] to get indexes of all cube shaped rocks
+    Set start to zero, set working string to ''
+    while indexes
+        Call function to sort substring passing in string[start:index]
+        Set working string += sorted substring
+        Set start to index + 1
+    Call function to sort substring passing in string[start:] if start < len(string) and append to working string
+    Append working string to final list
+Return final list
+
+Get total load function  DONE
+-----------------------
+Iniitialize total to zero
+Iterate over list of strings in string list
+    Iterate over the length of the string
+        if string[i] == "O"
+            total += i
+Return total
