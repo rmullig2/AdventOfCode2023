@@ -1,0 +1,20 @@
+Notes
+-----
+Transpose and push right for North tilt
+Transpose back and push left for West tilt
+Transpose again and push left for South tilt
+Transpose back and push right for East tilt
+
+Modify transpose_and_tilt to add direction
+    If direction in 'South', 'West' then reversed is set to True
+    Change final_strings to final_list and append list(current_string)
+
+Modify subtring_sort to add reversed parameter that defaults to False
+If reversed is set to True
+    return "".join(l[::-1])
+
+Modify get_total_load to take final_list instead of final_strings
+    Iterate l over final_list
+    string = "".join(l)
+
+Change main function to run transport_and_tilt 4000000000 times
