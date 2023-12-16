@@ -1,0 +1,20 @@
+Create global dictionary to translate characters to ASCII codes
+Create function to convert string of characters using HASH function
+
+Global dictionary
+-----------------
+d = {}
+for i in range(32, 127):
+     d[chr(i)] = i
+
+Convert using HASH function
+---------------------------
+Initialize hash sum to zero
+Split line into steps separated by ,
+For string in steps
+    For character in string
+        hash sum += d[character]
+        hash sum *= 17
+        hash sum %= 256
+
+Return total

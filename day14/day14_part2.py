@@ -1,6 +1,7 @@
 import sys
 import np
 import re
+import functools
 
 def get_input(filename):
     with open(filename) as f:
@@ -21,6 +22,20 @@ def strings_to_array(string_list):
         l.append(list(row))
     return np.array(l)
 
+@functools.cache
+def tilt_string(string):
+    indexes = [index.start(0) for index in re.finditer('#', string)]
+    start = 0
+    current_string = ""
+    while indexes:
+        index = indexes.pop(0)
+        sorted_substring = substring_sort(string[start:index])
+        current_string += sorted_substring + '#'
+        start = index + 1
+    if start < len(string):
+        current_string += substring_sort(string[start:])
+    return current_string
+
 def tilt_array(input_array):
     string_list, tilted_strings = [], []
     for arr in input_array:
@@ -28,16 +43,17 @@ def tilt_array(input_array):
         string_list.append(''.join(row))
 
     for string in string_list:
-        indexes = [index.start(0) for index in re.finditer('#', string)]
-        start = 0
-        current_string = ""
-        while indexes:
-            index = indexes.pop(0)
-            sorted_substring = substring_sort(string[start:index])
-            current_string += sorted_substring + '#'
-            start = index + 1
-        if start < len(string):
-            current_string += substring_sort(string[start:])
+        #indexes = [index.start(0) for index in re.finditer('#', string)]
+        #start = 0
+        #current_string = ""
+        #while indexes:
+        #    index = indexes.pop(0)
+        #    sorted_substring = substring_sort(string[start:index])
+        #    current_string += sorted_substring + '#'
+        #    start = index + 1
+        #if start < len(string):
+        #    current_string += substring_sort(string[start:])
+        current_string = tilt_string(string)
         tilted_strings.append(current_string)
 
     return strings_to_array(tilted_strings)
@@ -86,19 +102,9 @@ if __name__ == '__main__':
         exit(1)
     input_array = get_input(sys.argv[1])
     original_array = np.copy(input_array)
-    original_array2 = np.copy(input_array)
 
-    #for i in range(1000000000):
-    for i in range(10000000):
+    for i in range(1000000000):
         input_array = transpose_and_tilt(input_array)
-        if not np.array_equal(input_array, original_array):
-            if i % 1000000 == 0:
-                if not np.array_equal(input_array, original_array2):
-                    print(f'not equal after 1000 additional iterations')
-                    print(f'starting array:\n{original_array2}')
-                    print(f'ending array:\n{input_array}')
-                    original_array2 = np.copy(input_array)
-        else:
-            print(f'equal after {i} iterations')
+        if i % 10000000 == 0:
+            print(f'Completed {i} cycles, {1000000000-i} cycles remaining.')
     print(get_total_load(input_array))
-    exit(0)
