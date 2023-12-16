@@ -1,0 +1,41 @@
+General approach
+----------------
+Each box list will hold a list of lens labels
+Corresponding dictionary for each box list with lens label as key and focal length for the value
+
+Program flow
+------------
+Read input file into string
+    with open("input.txt") as f:
+        string = f.read().rstrip()
+Split string by , into steps list
+Process each step
+
+Step processing
+---------------
+Initialize hash value to zero
+Iterate over characters in step
+Initialize label to ""
+    While character in [a-z]
+        label += character
+        Add ASCII value to hash value
+        Multiply hash value by 17
+        Set hash value to hash value % 256
+    hash value is now equal to the box number
+    If character == '-'
+        If box_dictionary.get(label)
+            box_dictionary.pop(label)
+            box_list.remove(label)
+    elif character == '='
+        set focal_length to int of step[-1]
+        If not box_dictionary.get(label)
+            box_list.append(label)
+        box_dictionary[label] = focal_length
+
+Compute focusing power
+----------------------
+Initialize focusing power to 0
+Iterate over the length of the box_list
+    Iterate over the length of each individual box
+        focusing power = (box number + 1) * (slot number + 1) * focal length
+Return focusing power
