@@ -1,40 +1,76 @@
+Algorithm
+---------
+Read input and store as list of strings
+Call cycle function 1000000000 times
+    North tilt
+    West tilt
+    South tilt
+    East tilt
+
 Notes
 -----
-Remove the extra row being added to the input
-Transpose and push right for North tilt
-Transpose back and push left for West tilt
-Transpose again and push left for South tilt
-Transpose back and push right for East tilt
+STOP USING ARRAYS AND STAY WITH STRINGS
+CHANGE tilt_array TO RETURN tilted_strings instead of doing strings to array
 
-Function to take list of strings and return np.array
-----------------------------------------------------
-Initialize empty list
-For line in list of strings
-	Append list(line) to empty list
-Return np.array(empty list)
+string_cache - keys are strings, values are strings
+grid_cache - keys are strings, values are tuples
 
-Modify transpose_and_tilt to add perform run 4 times representing each direction
+North tilt
+----------
+Receive list of strings named rock_map
+Tilt the list for the North direction
+    north = ["".join(reversed(x)) for x in list(zip(*arr))]
+Flatten north into a single string named rock_string
+If rock_string in map_cache
+    north = list(map_cache[rock_string])
+Else manually tilt list
+    north =  tilt_array(north)
+    map_cache[rock_string] = tuple(north)
+return ["".join(x) for x in reversed(list(zip(*north)))]
+
+West tilt
+---------
+Receive list of strings named rock_map
+Tilt the list for the West direction
+    west = ["".join(reversed(x)) for x in arr]
+Flatten west into a single string named rock_string
+If rock_string in map_cache
+    west = list(map_cache[rock_string])
+Else manually tilt list
+    west = tilt_array(west)
+    map_cache[rock_string] = tuple(west)
+return ["".join(reversed(x)) for x in west]
+
+South tilt
+----------
+Receive list of strings named rock_map
+Tilt the list for the South direction
+    south = ["".join(x) for x in list(zip(*arr))]
+Flatten south into a single string named rock_string
+If rock_string in map_cache
+    south = list(map_cache[rock_string])
+Else manually tilt list
+    south = tilt_array(south)
+    map_cache[rock_string] = tuple(south)
+return ["".join(x) for x in list(zip(*south))]
+
+East tilt
+---------
+Receive list of strings named rock_map
+Flatten east into a single string name rock_string
+If rock_string in map_cache
+    east = list(map_cache[rock_string])
+Else manually tilt list
+    east = tilt_array(east)
+    map_cache[rock_string] = tuple(east)
+return east
+
+Modify transpose_and_tilt to add perform run 4 times representing each direction and call tilt function on each
+Before each direction
     First direction North
-        Using numpy flip the array on the vertical (0) axis
-        Transpose the array
-	Use the current code to tilt
-        Call function to take the final strings and return an np.array
-        Transpose the array
-        Using numpy flip the array on the vertical (0) axis
     Next direction West
-        Using numpy flip the array on the horizontal (1) axis
-	Use the current code to tilt
-        Call function to take the final strings and return an np.array
-        Using numpy flip the array on the horizontal (1) axis
     Next direction South
-        Transpose the array
-	Use the current code to tilt
-        Call function to take the final strings and return an np.array
-        Transpose the array
     Next direction East
-	Use the current code to tilt
-        Call function to take the final strings and return an np.array
-Return an np.array instead of a list of strings
 
 Modify get_total_load to iterate over rows in array
 	Convert each row to a string using	string = ''.join(row)
