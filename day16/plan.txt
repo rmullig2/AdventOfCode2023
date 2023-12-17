@@ -1,0 +1,81 @@
+Gameplan
+-------
+Read in input file into list of strings
+Insert border of *'s around contraption
+Create function to determine if tile is in bounds (not part of border)
+Create function to determine direction
+Create function to follow beam
+
+Is tile in bounds
+-----------------
+Receive tuple representing (row, col) and contraption
+If row == 0 or row == len(contraption) - 1 return False
+If col == 0 or col == len(contraption[0]) - 1 return False
+Return True
+
+Get tile coordinates
+--------------------
+Receive tuple representing (row, col), direction, and contraption
+If direction == up
+    next node = (row-1, col)
+elif direction == down
+    next node = (row+1, col)
+elif direction == right
+    next node = (row, col+1)
+elif direction == left
+    next node = (row, col-1)
+
+Get next direction
+------------------
+if tile = /
+    if direction == right
+        new direction = up
+    elif direction == left
+        new direction = down
+    elif direction == up
+        new direction = right
+    elif direction == down
+        new direction == left
+elif tile = \
+    if direction == right
+        new direction = down
+    elif direction == left
+        new direction = up
+    elif direction == up
+        new direction = left
+    elif direction == down
+        new direction == right
+elif tile = |
+    if direction in up, down
+        new direction = direction
+    if direction in left, right
+        new direction = up, down
+elif tile = -
+    if direction in up, down
+        new direction = left, right
+    if direction in left, right
+        new direction = direction
+else
+    new direction = direction
+
+
+return_tiles = []
+for direction in new direction
+    return_tiles.append(new node, direction)
+return return_tiles
+
+Follow beam
+-----------
+Initialize energized to empty set
+Initialize tiles to visit with tuple of [1,1], right
+While tiles to visit
+    Pop left most tuple from tiles to visit into current tile
+    Add stringified row-col to energized
+    next tile = get next tiles(current tile[0], current_tile[1], contraption)
+    for tile in next tile
+        tiles to visit append tile
+Return energized
+
+Count energized tiles
+---------------------
+Return length of energized
