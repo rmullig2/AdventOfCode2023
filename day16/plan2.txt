@@ -1,0 +1,5 @@
+Modify follow beam to take in tile and direction parameters
+These are used for start_tile and direction
+Create function to loop through top, bottom, left, and right edges
+    Append result to a list
+    Return the max of the list
