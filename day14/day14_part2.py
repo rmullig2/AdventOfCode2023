@@ -2,125 +2,103 @@ import sys
 import np
 import re
 
-string_cache = {}
-map_cache = {}
-
 def get_input(filename):
     with open(filename) as f:
-        rock_map = f.read().splitlines()
-    return rock_map
-
-def flatten(rock_map):
-    s = ""
-    for string in rock_map:
-        s += "".join(string)
-    return s
+        strings = f.read().splitlines()
+    lines = []
+    for i in range(len(strings)):
+        lines.append(list(strings[i]))
+    return np.array(lines)
 
 def substring_sort(string):
     l = list(string)
     l.sort()
     return "".join(l)
 
-def tilt_string(string):
-    indexes = [index.start(0) for index in re.finditer('#', string)]
-    start = 0
-    current_string = ""
-    while indexes:
-        index = indexes.pop(0)
-        sorted_substring = substring_sort(string[start:index])
-        current_string += sorted_substring + '#'
-        start = index + 1
-    if start < len(string):
-        current_string += substring_sort(string[start:])
-    return current_string
+def strings_to_array(string_list):
+    l = []
+    for row in string_list:
+        l.append(list(row))
+    return np.array(l)
 
-def tilt_list(rock_map):
-    tilted_strings = []
-    for string in rock_map:
-        current_string = string_cache.get(string)
-        if not current_string:
-            current_string = tilt_string(string)
-            string_cache[string] = current_string
+def tilt_array(input_array):
+    string_list, tilted_strings = [], []
+    for arr in input_array:
+        row = list(arr)
+        string_list.append(''.join(row))
+
+    for string in string_list:
+        indexes = [index.start(0) for index in re.finditer('#', string)]
+        start = 0
+        current_string = ""
+        while indexes:
+            index = indexes.pop(0)
+            sorted_substring = substring_sort(string[start:index])
+            current_string += sorted_substring + '#'
+            start = index + 1
+        if start < len(string):
+            current_string += substring_sort(string[start:])
         tilted_strings.append(current_string)
-    return tilted_strings
 
-def tilt_north(rock_map):
-    north = ["".join(reversed(x)) for x in list(zip(*rock_map))]
-    rock_string = flatten(north)
-    if map_cache.get(rock_string):
-        north = list(map_cache.get(rock_string))
-    else:
-        north = tilt_list(north)
-        map_cache[rock_string] = tuple(north)
-    return ["".join(x) for x in reversed(list(zip(*north)))]
+    return strings_to_array(tilted_strings)
 
-def tilt_west(rock_map):
-    west = ["".join(reversed(x)) for x in rock_map]
-    rock_string = flatten(west)
-    if map_cache.get(rock_string):
-        west = list(map_cache.get(rock_string))
-    else:
-        west = tilt_list(west)
-        map_cache[rock_string] = tuple(west)
-    return ["".join(reversed(x)) for x in west]
+def transpose_and_tilt(input_array):
+    # Tilting Northa
+    #print(f'input_array:\n{input_array}')
+    input_array = np.flip(input_array, 0)
+    input_array = np.transpose(input_array)
+    input_array = tilt_array(input_array)
+    input_array = np.transpose(input_array)
+    input_array = np.flip(input_array, 0)
+    #print(f'After North tilt:\n{input_array}')
 
-def tilt_south(rock_map):
-    south = ["".join(x) for x in list(zip(*rock_map))]
-    rock_string = flatten(south)
-    if map_cache.get(rock_string):
-        south = list(map_cache.get(rock_string))
-    else:
-        south = tilt_list(south)
-        map_cache[rock_string] = tuple(south)
-    return ["".join(x) for x in list(zip(*south))]
+    # Tilting West
+    input_array = np.flip(input_array, 1)
+    input_array = tilt_array(input_array)
+    input_array = np.flip(input_array, 1)
+    #print(f'After West tilt:\n{input_array}')
 
-def tilt_east(rock_map):
-    east = rock_map
-    rock_string = flatten(east)
-    if map_cache.get(rock_string):
-        east = list(map_cache.get(rock_string))
-    else:
-        east = tilt_list(east)
-        map_cache[rock_string] = tuple(east)
-    return east
+    # Tilting South
+    input_array = np.transpose(input_array)
+    input_array = tilt_array(input_array)
+    input_array = np.transpose(input_array)
+    #print(f'After South tilt:\n{input_array}')
 
-def cycle(rock_map):
-    rock_map = tilt_north(rock_map)
-    rock_map = tilt_west(rock_map)
-    rock_map = tilt_south(rock_map)
-    rock_map = tilt_east(rock_map)
-    return rock_map
+    # Tilting East
+    input_array = tilt_array(input_array)
+    #print(f'After East tilt:\n{input_array}')
 
-def get_total_load(rock_map):
+    return input_array
+
+def get_total_load(final_array):
     total = 0
-    counter = 10
-    for string in rock_map:
+    print(final_array)
+    for row in final_array:
+        string = "".join(row)
         for i in range(len(string)):
             if string[i] == 'O':
-                total += counter
-        counter -= 1
+                total += i
     return total
 
 if __name__ == '__main__':
     if len(sys.argv) < 2:
         print('Usage: day14_part2 input_filename')
         exit(1)
-    rock_map = get_input(sys.argv[1])
-    results = []
-    results.append(rock_map.copy())
+    input_array = get_input(sys.argv[1])
+    original_array = np.copy(input_array)
+    original_array2 = np.copy(input_array)
+
     #for i in range(1000000000):
-    for i in range(27):
-        results.append(rock_map.copy())
-        rock_map = cycle(rock_map)
-        #if i % 1000000 == 0:
-        #    print(f'Completed {i} cycles, {1000000000-i} cycles remaining.')
-    result_totals = []
-    for i in range(len(results)):
-        result_totals.append([])
-    for i in range(len(results)):
-        for j in range(i+1, len(results)):
-            if results[i] == results[j]:
-                result_totals[i].append(j)
-    for i in range(len(result_totals)):
-        print(f'{i} matches {result_totals[i]}')
-    print(get_total_load(rock_map))
+    for i in range(10000000):
+        input_array = transpose_and_tilt(input_array)
+        if not np.array_equal(input_array, original_array):
+            if i % 1000000 == 0:
+                if not np.array_equal(input_array, original_array2):
+                    print(f'not equal after 1000 additional iterations')
+                    print(f'starting array:\n{original_array2}')
+                    print(f'ending array:\n{input_array}')
+                    original_array2 = np.copy(input_array)
+        else:
+            print(f'equal after {i} iterations')
+    print(get_total_load(input_array))
+    exit(0)
