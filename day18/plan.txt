@@ -1,0 +1,51 @@
+Algorithm
+---------
+Read file input into list of strings
+Process strings into direction, length, and color
+Create function to trace movements in order to determine the grid dimensions
+Create function to draw grid passing in the starting point and dimensions
+Grid spaces will be drawn with #'s, non-grid spaces will be drawn with .'s
+Create function to convert enclosed non-grid spaces to #'s
+Count and return the number of #'s
+
+Function to trace movements
+---------------------------
+Initialize row, col, min, and max for each all to zero
+Read each step in the dig plan and move accordingly
+Calculate number of rows, number of columns, and where the starting point should be
+
+Draw grid
+---------
+Create grid of all .'s using passed in row and column values
+Set location to passed in starting point
+Iteration over steps
+    Change locations to #'s along path
+Return grid
+
+Get valid neighbors
+-------------------
+Initialize valid neighbors to empty set
+Directions equal up, down, left, right
+Iterate over directions
+    if location at direction == '.'
+        add to valid neighbors
+return valid neighbors
+
+No way out
+----------
+Add location to check list
+while check list
+    if location on border (row or col is equal to zero or max rows/cols)
+        return False
+    else
+        add get valid neighbors to check list
+return True
+
+
+Change enclosed
+---------------
+Iterate over locations in grid
+If location is '.'
+    If no way out
+        change location to '#'
+
