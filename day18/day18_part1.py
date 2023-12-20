@@ -74,59 +74,52 @@ def valid_neighbors(location, visited, grid):
             valid_neighbors.append(neighbor)
     return valid_neighbors
 
-def no_way_out_old(location, grid):
-    check_list = [location]
-    visited = []
-    while check_list:
-        current_location = check_list.pop(0)
-        visited.append(current_location)
-        row, col = current_location[0], current_location[1]
-        if row in [0, len(grid)-1]:
-            return False
-        if col in [0, len(grid[0])-1]:
-            return False
-        for neighbor in valid_neighbors(current_location, visited, grid):
-            check_list.append(neighbor)
-    return True
-
-def no_way_out(location, grid):
+def in_grid(location, grid):
     row, col = location[0], location[1]
-    first_row = first_col = inf
-    last_row = last_col = -inf
-    for i in range(len(grid[0])):
-        if grid[row][i] == '#':
-            first_col = i
-            break
-    for i in range(len(grid[0])-1, -1, -1):
-        if grid[row][i] == '#':
-            last_col = i
-            break
-    for i in range(len(grid)):
-        if grid[i][col] == '#':
-            first_row = i
-            break
-    for i in range(len(grid)-1, -1, -1):
-        if grid[i][col] == '#':
-            last_row = i
-            break
-    if col > first_col and col < last_col and row > first_row and row < last_row:
+    return row >= 0 and row < len(grid) and col >= 0 and col < len(grid[0])
+
+def free_neighbor(location, grid):
+    row, col = location[0], location[1]
+    north_neighbor = [row-1, col]
+    south_neighbor = [row+1, col]
+    west_neighbor =  [row, col-1]
+    east_neighbor =  [row, col+1]
+    if in_grid(north_neighbor, grid) and grid[row-1][col] == 'F':
+        return True
+    if in_grid(south_neighbor, grid) and grid[row+1][col] == 'F':
+        return True
+    if in_grid(west_neighbor, grid) and grid[row][col-1] == 'F':
+        return True
+    if in_grid(east_neighbor, grid) and grid[row][col+1] == 'F':
         return True
     return False
 
 def change_enclosed(grid):
-    rows, cols = len(grid), len(grid[0])
-    for row in range(rows):
-        for col in range(cols):
-            if grid[row][col] == '.' and no_way_out([row, col], grid):
-                grid[row][col] = '#'
-                print(f'Changed {row}-{col}')
+    for i in range(len(grid[0])):
+        if grid[0][i] == '.':
+            grid[0][i] = 'F'
+        if grid[len(grid)-1][i] == '.':
+            grid[len(grid)-1][i] = 'F'
+    for i in range(len(grid)):
+        if grid[i][0] == '.':
+            grid[i][0] = 'F'
+        if grid[i][len(grid[0])-1] == '.':
+            grid[i][len(grid[0])-1] = 'F'
+    changed = True
+    while changed:
+        changed = False
+        for i in range(len(grid)):
+            for j in range(len(grid[0])):
+                if grid[i][j] == '.' and free_neighbor([i,j], grid):
+                    grid[i][j] = 'F'
+                    changed = True
 
 def count_enclosed(grid):
     rows, cols = len(grid), len(grid[0])
     enclosed = 0
     for row in range(rows):
         for col in range(cols):
-            if grid[row][col] == '#':
+            if grid[row][col] in ['#', '.']:
                 enclosed += 1
     return enclosed
 
