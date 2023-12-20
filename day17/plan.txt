@@ -1,0 +1,53 @@
+Main algorithm
+--------------
+Need to use depth first search
+Call function to read input into lines of strings
+Call function to convert strings into list of lists of integers called city map
+Call get shortest path function passing in zero for row and zero for column
+Get all paths from start to end at each city block
+Prune paths that move in the same direction for three straight blocks
+
+Get next city block
+-------------------
+Takes in current block row and column along with direction
+If direction == up return row-1, col
+If direction == down return row+1, col
+If direction == left return row, col-1
+If direction == right return row, col+1
+
+In bounds function
+------------------
+Return False if row less than zero or row greater than length of city map
+Return False if column less than zero or column greater than length of city map
+Return True
+
+Get next moves
+--------------
+Receives city block coordinates, visited, city map
+Possible moves are 'up', 'down', 'left', 'right'
+Initialize next_moves to list
+for each move in possible move
+    Get next city block in that possible direction
+    if next block is not visited and next block is in bounds
+        add next block to next_moves
+return next_moves
+
+DFS
+---
+Receives city block, visited, city map, locations_min
+add city block to visited
+if locations_min.get(city block)
+    return locations_min[city block]
+heat loss = heat loss from city map
+if city block is not the factory
+    next_moves = get possible moves
+    for each move in next_moves
+        loss list append DFS(move, visited, city map)
+locations_min[city block] =  loss list
+return locations_min[city block]
+
+Get shortest path function
+--------------------------
+City block equals (passed row, passed column)
+locations_min = {}
+Call DFS on city block passing in (0,0), 0, None, 0, city map, locations_min
