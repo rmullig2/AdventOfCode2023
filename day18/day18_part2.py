@@ -9,14 +9,26 @@ def get_input(filename):
 def build_dig_plan(strings):
     dig_plan = []
     for string in strings:
-        dig_plan.append(string.split(' '))
+        fields = string.split(' ')
+        direction_num = fields[2][-2:-1]
+        if direction_num == '0':
+            direction = 'R'
+        elif direction_num == '1':
+            direction = 'D'
+        elif direction_num == '2':
+            direction = 'L'
+        elif direction_num == '3':
+            direction = 'U'
+        distance_hex = fields[2][2:-2]
+        distance = int(distance_hex, 16)
+        dig_plan.append((direction, distance))
     return dig_plan
 
 def grid_dimensions(dig_plan):
     min_row = max_row = min_col = max_col = row = col = 0
     for step in dig_plan:
         direction = step[0]
-        distance = int(step[1])
+        distance = step[1]
         if direction == 'U':
             row -= distance
             if row < min_row: min_row = row
@@ -42,7 +54,7 @@ def draw_grid(rows, cols, start, dig_plan):
     current_row, current_col = start[0], start[1]
     for step in dig_plan:
         direction = step[0]
-        distance = int(step[1])
+        distance = step[1]
         if direction == 'U':
             for row in range(current_row, current_row - (distance+1), -1):
                 grid[row][current_col] = '#'
@@ -112,7 +124,7 @@ def count_enclosed(grid):
 
 if __name__ == '__main__':
     if len(sys.argv) < 2:
-        print('Usage day18_part1.py input_filename')
+        print('Usage day18_part2.py input_filename')
         exit(1)
     strings = get_input(sys.argv[1])
     dig_plan = build_dig_plan(strings)

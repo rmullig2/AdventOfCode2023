@@ -1,0 +1,57 @@
+Current functions
+-----------------
+get_input		no change
+build_dig_plan		change		DONE
+grid_dimensions		no longer needed
+draw_grid		change		DONE
+in_grid			no longer needed
+free_neighbor		no longer needed
+change_enclosed		change to different name
+count_enclosed		no longer needed
+
+Change build_dig_plan to parse the last field and create the plan with direction and distance columns
+Need to splice the first five digits and convert that from hex to decimal
+
+Change grid_dimensions and draw_grid to remove the string to int conversion as dig_plan now has integer for distance
+
+Current method of changing enclosed locations will be too time expensive
+Need to stop iterating over all locations and only iterate over the '.' locations until no further changes
+
+AFTER MAKING INITIAL CHANGES IT IS APPARENT THAT DRAWING THE FULL GRID IS IMPOSSIBLE DUE TO MEMORY LIMITATIONS
+NEED TO COME UP WITH A NEW APPROACH
+
+New approach
+------------
+The directions will create one or many polygons
+Need to come up with a way to get the area of those polygons
+Keeping in mind that the polygons may overlap so create a function to find the shared area
+
+Change draw_grid to get_lines
+-----------------------------
+Get rid of grid
+Get rid of code to create border
+Keep initial row,col at 0,0
+Initialize lines to empty list
+Iterate through dig_plan
+	If direction is L or R then it is a horizontal line
+		create and append line vertices to lines list as a tuple with leftmost vertices first
+	If direction is U or D then it is a vertical line
+		create and append line vertices to lines list as a tuple with topmost vertices first
+Return lines set
+
+Calculate area
+--------------
+Use shapely library:
+
+from shapely import MultiPolygon, Polygon
+polygon = Polygon([(0, 0), (0, 10), (10, 10), (10, 0), (0, 0)])
+area(polygon)
+100.0
+area(MultiPolygon([polygon, Polygon([(10, 10), (10, 20), (20, 20), (20, 10), (10, 10)])]))
+200.0
+area(Polygon())
+0.0
+area(None)
+nan
+
+Test with this to see how overlapping polygons would affect it
