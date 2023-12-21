@@ -47,31 +47,25 @@ def grid_dimensions(dig_plan):
     start_col = cols - max_col - 1
     return rows, cols, [start_row, start_col]
 
-def draw_grid(rows, cols, start, dig_plan):
-    grid = []
-    for i in range(rows):
-        grid.append(['.'] * cols)
-    current_row, current_col = start[0], start[1]
+def get_lines(dig_plan):
+    lines = []
+    current_location = (0, 0)
     for step in dig_plan:
         direction = step[0]
         distance = step[1]
+        row, col = current_location[0], current_location[1]
+        print(f'direction: {direction}, row: {row}, col: {col}, distance: {distance}')
         if direction == 'U':
-            for row in range(current_row, current_row - (distance+1), -1):
-                grid[row][current_col] = '#'
-            current_row = row
+            end_location = ((row - distance), col)
         elif direction == 'D':
-            for row in range(current_row, current_row + (distance+1)):
-                grid[row][current_col] = '#'
-            current_row = row
+            end_location = ((row + distance), col)
         elif direction == 'L':
-            for col in range(current_col, current_col - (distance+1), -1):
-                grid[current_row][col] = '#'
-            current_col = col
+            end_location = (row, (col - distance))
         elif direction == 'R':
-            for col in range(current_col, current_col + (distance+1)):
-                grid[current_row][col] = '#'
-            current_col = col
-    return grid
+            end_location = (row, (col + distance))
+        lines.append((current_location, end_location))
+        current_location = end_location
+    return lines
 
 def in_grid(location, grid):
     row, col = location[0], location[1]
@@ -128,7 +122,8 @@ if __name__ == '__main__':
         exit(1)
     strings = get_input(sys.argv[1])
     dig_plan = build_dig_plan(strings)
-    rows, cols, start = grid_dimensions(dig_plan)
-    grid = draw_grid(rows, cols, start, dig_plan)
-    change_enclosed(grid)
-    print(count_enclosed(grid))
+    lines = get_lines(dig_plan)
+    exit(1)
+    #grid = draw_grid(rows, cols, start, dig_plan)
+    #change_enclosed(grid)
+    #print(count_enclosed(grid))

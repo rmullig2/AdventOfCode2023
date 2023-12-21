@@ -1,10 +1,10 @@
 Current functions
 -----------------
-get_input		no change
+get_input   		no change
 build_dig_plan		change		DONE
 grid_dimensions		no longer needed
-draw_grid		change		DONE
-in_grid			no longer needed
+draw_grid	    	change		DONE
+in_grid			    no longer needed
 free_neighbor		no longer needed
 change_enclosed		change to different name
 count_enclosed		no longer needed
@@ -43,7 +43,7 @@ Calculate area
 --------------
 Use shapely library:
 
-from shapely import MultiPolygon, Polygon
+from shapely import MultiPolygon, Polygon, area
 polygon = Polygon([(0, 0), (0, 10), (10, 10), (10, 0), (0, 0)])
 area(polygon)
 100.0
