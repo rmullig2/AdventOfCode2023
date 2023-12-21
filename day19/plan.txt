@@ -1,0 +1,42 @@
+Create function to read in input file into lists of workflows and ratings
+Create function to take workflows list and create dictonary
+	letters before { are the key
+	separate fields by , to get the rules
+	rules must be processed in order
+	check first character of rule
+		if first character in 'x', 'm', 'a', 's' then represents the category and it is a conditional
+		if it is a conditional then second character is the comparison (< or >)
+		the number after < or > is the value (convert to int)
+		look up the value of the category in the current workflow dictionary to do the comparison
+		the value after the : is the next step
+	if there is no conditional then the entire field is the next step
+Create a function to process the ratings
+	initialize total to zero
+	for each line in the list
+		remove first and last characters
+		split line by ,
+		split resulting fields by =
+		the first value will be the key ('x', 'm', 'a', 's')
+		the second value will be the value (convert to int)
+	call function to determine if parts are accepted
+	if accepted
+		iterate through dictionary values and all to total value
+Create function to determine acceptance
+	receive workflows and rating
+	initialize result to result of workflow 'in' on rating, workflow(workflows, rating, 'in')
+	while result not in 'A', 'R'
+		result = workflow(workflows, rating, result)
+	return result
+Create function process a workflow on a rating
+	workflow = workflows[rating]
+	for rule in workflow:
+		if len(rule) == 1
+			return rule[0]
+		else
+			category, conditional, value, next_step = rule[0], rule[1], rule[2], rule[3]
+			if conditional == '<':
+				if rating[category] < value
+					return next_step
+			elif conditional == '>':
+				if rating[category] > value
+					return next_step
