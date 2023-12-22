@@ -1,0 +1,37 @@
+Create function to get all paths that end in A
+These are all possible paths from the test input:
+in -> px -> qkq -> A
+in -> px -> qkq -> crn -> R
+in -> px -> qkq -> crn -> A
+in -> px -> A
+in -> px -> rfg -> gd -> R
+in -> px -> rfg -> R
+in -> px -> rfg -> A
+in -> qqz -> qs -> A
+in -> qqz -> qs -> lnx -> A
+in -> qqz -> hdj -> A
+in -> qqz -> hdj -> pv -> R
+in -> qqz -> hdj -> pv -> A
+in -> qqz -> R
+
+Create function to get the list of valid rating for each path that ends in A
+in -> px -> qkq -> A
+x = 1,1415, m = 1,4000, a = 1,2005, s = 1,1350
+in -> px -> qkq -> crn -> A
+x = 2663,4000, m = 1,4000, a = 1,2005, s = 1,1350
+in -> px -> A
+x = 1,4000, m = 2091,4000, a = 2006,4000, s = 1,1350
+in -> px -> rfg -> A
+x = 1,2440, m = 1,2090, a = 2006,4000, s = 537,1350
+in -> qqz -> qs -> lnx -> A
+x = 1,4000, m = 1,4000, a = 1,4000, s = 2771,3448
+in -> qqz -> hdj -> A
+x = 1,4000, m = 1801,4000, a = 1,4000, s = 1351,2770
+
+Create function that will take in the paths and compute the valid combinations
+Each rating's total valid combinations can be found by multiplying the ratings
+Need to be able to determine the overlap and delete it
+range(max(x[0], y[0]), min(x[-1], y[-1])+1)     do this for all for rules and take the lowest number
+Must compare each rating to each other to remove all duplicates
+
+Total is the sum of all ratings minus all duplicates
