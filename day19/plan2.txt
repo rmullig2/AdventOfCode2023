@@ -31,7 +31,22 @@ x = 1,4000, m = 1801,4000, a = 1,4000, s = 1351,2770
 Create function that will take in the paths and compute the valid combinations
 Each rating's total valid combinations can be found by multiplying the ratings
 Need to be able to determine the overlap and delete it
-range(max(x[0], y[0]), min(x[-1], y[-1])+1)     do this for all for rules and take the lowest number
+range(max(x[0], y[0]), min(x[-1], y[-1])+1)     do this for all for rules and multiply
 Must compare each rating to each other to remove all duplicates
 
 Total is the sum of all ratings minus all duplicates
+
+Current functions
+-----------------
+get_input			change to stop returning ratings				DONE
+create_workflows_dict		no change							DONE
+create_ratings_dict		not needed							DONE
+sum_accepted_parts		change to sum all of the workflows minus the collisions
+workflows_result		change to return categories for a given accepted path		DONE
+rating_accepted			change to get accepted paths, need to convert to set afterwards	DONE
+rating_sum			change to compute accepted path category combinations		DONE
+
+New function
+------------
+compute_collisions		iterate over workflows results and compute total collisions	DONE
+change_ratings			change the x, m, a, or s rating depending on the next step	DONE
